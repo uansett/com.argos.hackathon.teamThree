@@ -4,8 +4,9 @@ if(getURLParameters("product")){
     stopLoadingFlag = true;    
 }
 $(document).ready(function(){
+    // D.R.Y - Do Repeat Yourself
     if(stopLoadingFlag){
-        var params = getSearchParameters();
+        var params = getURLParameters("product");
         addProductListing(params);
     }
 });
@@ -74,6 +75,58 @@ function getURLParameters(paramName)
 
 
 function addProductListing(parameter){
+    // PROD
+    // $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=et6qxnqrjbmqzrkh4spajzqs&callback=addGraphForProduct");
+    // UAT1
+    $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=4n5wt8jqfj6b87y5p3uaxdpa&callback=addGraphForProduct");
+}
+
+function addGraphForProduct(data){
+    var xmlDoc = $.parseXML( data ),
+        $xml = $( xmlDoc );
+    var price = $xml.find("Price").text();
+    var catnum = $xml.find("Product").attr("id");
+    var name = $xml.find("ShortDescription").text();
+
+    $('.stream').append('<div class="graph '+catnum+'"></graph>');
+    drawSnassyGraphForProduct(catnum);
+}
+
+function drawSnassyGraphForProduct(catnum){
+
+    nv.addGraph(function() {
+        var chart = nv.models.multiBarChart()
+        .transitionDuration(350)
+        .reduceXTicks(true)   //If 'false', every single x-axis tick label will be rendered.
+        .rotateLabels(0)      //Angle to rotate x-axis labels.
+        .showControls(true)   //Allow user to switch between 'Grouped' and 'Stacked' mode.
+        .groupSpacing(0.1)    //Distance between each group of bars.
+        ;
+
+    chart.xAxis
+        .tickFormat(d3.format(',f'));
+
+    chart.yAxis
+        .tickFormat(d3.format(',.1f'));
+
+    d3.select('#chart1 svg')
+        .datum(exampleData())
+        .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+    });
+
+    function exampleData() {
+        return stream_layers(3,10+Math.random()*100,.1).map(function(data, i) {
+            return {
+                key: 'Stream #' + i,
+               values: data
+            };
+        });
+    })
 
 }
+
 
