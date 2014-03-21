@@ -1,0 +1,853 @@
+
+/* Controls styles for stock check Lightbox flow
+**************************************************/
+
+div#lightBoxStockAvailability {
+	width: 440px;
+}
+
+div#lightBoxStockAvailability.selectStoreStateImpInv { width: 684px; }
+
+/* COLS: home delivery, store pickup */
+div.singleViewOneStoreOneResult {
+	width: 380px !important;
+	_width: 383px !important;
+}
+
+/* COLS: home delivery, store pickup, dont add */
+div.singleViewOneStoreMultipleResults {
+	/*DOESNT EXIST BUT TEST*/
+	width: 380px !important;
+	_width: 383px !important;
+}
+
+/* COLS: home delivery, store pickup (1), store pickup (2) */
+div.singleViewTwoStoresOneResult { width: 580px !important; }
+
+/* COLS: home delivery, store pickup (1), store pickup (2), don't add */
+div.singleViewTwoStoresMultipleResults {	width: 580px !important; /*DOESNT EXIST BUT TEST*/ }
+
+/* COLS: product name, home delivery, store pickup */
+div.multipleViewOneStoreOneResult { width: 730px !important; }
+
+/* COLS: product name, home delivery, store pickup, don't add */
+div.multipleViewOneStoreMultipleResults { width: 730px !important; }
+
+/* COLS: product name, home delivery, store pickup (1), store pickup (2) */
+div.multipleViewTwoStoresOneResult { width: 900px !important; }
+
+/* COLS: product name, home delivery, store pickup (1), store pickup (2), dont add */
+div.multipleViewTwoStoresMultipleResults { width: 900px !important }
+
+
+/* Results Table
+*******************/
+#lightBoxStockAvailability div.resultsTable {
+	/* margin: 0px 10px 10px 10px; */
+}
+
+#lightBoxStockAvailability div.resultsTable table {
+	border-collapse: separate;
+	*border-collapse: collapse;
+	font-size: 100%!important;
+	table-layout: fixed;
+	width: 100%;
+}
+
+#lightBoxStockAvailability div.resultsTable table td.homeDelivery,
+#lightBoxStockAvailability div.resultsTable table th.homeDelivery {
+	/* border-left: #09b2d1 solid 1px; */
+	width: 177px;
+}
+
+#lightBoxStockAvailability div.resultsTable table td.homeDeliveryAndStorePickup,
+#lightBoxStockAvailability div.resultsTable table th.homeDeliveryAndStorePickup {
+	/* border-color: #09b2d1;
+	border-style: solid;
+	border-width: 0px 1px 0px 1px; */
+}
+
+#lightBoxStockAvailability div.resultsTable table td.storePickup,
+#lightBoxStockAvailability div.resultsTable table td.storePickup2,
+#lightBoxStockAvailability div.resultsTable table th.storePickup,
+#lightBoxStockAvailability div.resultsTable table th.storePickup2{
+	/* border-right: #09b2d1 solid 1px; */
+	width: 184px;
+}
+
+#lightBoxStockAvailability div.resultsTable table td.storePickup p.resizeLightboxFailureMessage,
+#lightBoxStockAvailability div.resultsTable table td.storePickup2 p.resizeLightboxFailureMessage {
+	width: 100%;
+	*float: left;
+}	
+
+#lightBoxStockAvailability div.resultsTable table thead td,
+#lightBoxStockAvailability div.resultsTable table thead th {
+	background-color: #e7e7e7;
+	background-repeat: repeat-y;
+	font-weight: bold;
+	padding-bottom: 8px;
+	vertical-align: top;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td {
+	background: #f0f0f0;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead th {
+	border-width: 0px;
+	padding-top: 7px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead th .title {
+	font-size: 14px;
+	/* padding: 0px 6px 5px 31px; */
+	padding: 0px 6px 7px 60px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead .checkOtherStores {
+	font-weight: normal;
+	margin-left: 10px;
+	padding-bottom: 9px;
+	text-decoration: underline;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead .location {
+	display: block;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead .homeDelivery {
+	/* background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_result_table_head_left.gif);
+	background-position: top right; */
+	border-right: 8px solid #FFFFFF;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead .storePickup {
+	/* background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_result_table_head_right.gif);
+	background-position: top left; */
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.homeDelivery .location {
+	padding: 10px 0 0;
+	margin-left: 10px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.storeName2 {
+	background-image: none;
+	border-left: 1px solid #CCCCCC;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.storePickup .location {
+	padding: 10px 5px 0px 10px;
+}
+
+#lightBoxStockAvailability div.resultsTable table th.homeDelivery .title {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif) no-repeat -70px -176px;	
+}
+
+/*#lightBoxStockAvailability div.resultsTable table th.homeDelivery .unavailable {
+	background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/icon_lorry_disabled.gif);
+}*/
+
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup,
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup,
+div.multipleViewTwoStoresOneResult div.resultsTable table th.storePickup,
+div.multipleViewTwoStoresMultipleResults div.resultsTable table th.storePickup {
+	width: 360px !important;
+}
+
+#lightBoxStockAvailability div.resultsTable table th.storePickup .title {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif) no-repeat -70px -208px;	
+}
+
+/*#lightBoxStockAvailability div.resultsTable table th.storePickup .unavailable {
+	background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/icon_storepickup_disabled.gif);
+}*/
+
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.title,
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.title,
+div.multipleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.title,
+div.multipleViewTwoStoresMultipleResults div.resultsTable table th.storePickup div.container p.title {
+	float: left !important;
+	margin-left: 70px !important;
+	display: inline;
+}
+
+#lightBoxStockAvailability div.resultsTable table th.storePickup p.check {
+	text-align: center;
+	font-size: 12px;
+}
+
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.check,
+div.singleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.check,
+div.multipleViewTwoStoresOneResult div.resultsTable table th.storePickup div.container p.check,
+div.multipleViewTwoStoresMultipleResults div.resultsTable table th.storePickup div.container p.check {
+	float: left;
+	display: inline;	
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody {
+	border-bottom: #fff solid 2px;
+	border-top: #fff solid 2px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td {
+	background-color: #f1f1f1;
+	background-repeat: repeat-y;
+	padding-bottom: 6px;
+	vertical-align: top;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td .container {
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 5px 8px 0px 8px;
+	position: relative;
+	top: -1px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody .homeDelivery {
+	/* background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_result_table_body_left.gif);
+	background-position: top right; */
+	border-top: 1px solid #CCCCCC;
+	border-right: 8px solid #FFFFFF;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody .homeDelivery .container{
+	background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_dotted_line_home_delivery.gif);
+	padding-top: 7px;
+	margin-right: 5px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody .storePickup,
+#lightBoxStockAvailability div.resultsTable table tbody .storePickup2 {
+	/* background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_result_table_body_right.gif);
+	background-position: top left; */
+	width: 183px;
+	border-top: 1px solid #CCCCCC;
+}
+#lightBoxStockAvailability div.resultsTable table tbody .storePickup2 {
+	border-left: 1px solid #CCCCCC;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody .storePickup .container,
+#lightBoxStockAvailability div.resultsTable table tbody .storePickup2 .container{
+	background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_dotted_line_store_pickup.gif);
+	margin-left: 5px;
+}
+
+/* tbody first row */
+#lightBoxStockAvailability div.resultsTable table tbody tr.row1 td .container {
+	background-image: none;
+	/* border-top: #ccc solid 1px; */
+	padding-top: 15px;
+	top: 0px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storeName {
+	background-color: #e3f1f4;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: 180px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storeName p {
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storeName2 {
+	border: 1px solid #999999;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	background: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_table_border.gif) repeat-y top right;
+	width: 180px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storeName2 p {
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+/* productName column */
+#lightBoxStockAvailability div.resultsTable table tbody td.productName {
+	background-image: url(/wcsstore/argos/en_GB/images/lightbox/img/bg_dotted_line_product_name.gif);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td.productName a.dontAdd {
+	background: transparent top left no-repeat url(/wcsstore/argos/en_GB/images/lightbox/img/icon_remove_this_product.gif);
+	font-size: 11px;
+	line-height: 25px;
+	padding-left: 18px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td.productName div.action {
+	margin-left: 25px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td.productName span {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr.last td.productName {
+	background-image: none;
+	border-top: 1px solid #ccc;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.productName,
+#lightBoxStockAvailability div.resultsTable table thead th.productName,
+#lightBoxStockAvailability div.resultsTable table tbody td.productName,
+#lightBoxStockAvailability div.resultsTable table tfoot td.productName {
+	background-color: #fff;
+	border-top-width: 0px;
+	padding: 17px 0px 0px 0px;
+	width: 280px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead th.productName {
+	padding-top: 0;
+}
+#lightBoxStockAvailability div.resultsTable table thead th.productName p {
+	font-size: 16px;
+	margin-bottom: 0;
+	padding-top: 15px;
+}	
+
+#lightBoxStockAvailability div.resultsTable table tfoot td.productName {
+	text-align: left;
+	vertical-align: top;
+}
+
+#lightBoxStockAvailability div.resultsTable table tfoot td.productName span {
+	background: transparent top left repeat-x url(/wcsstore/argos/en_GB/images/lightbox/img/bg_tfoot_product_name_line.gif);
+	display: block;
+	height: 3px;
+	margin-left: 0px;
+	position: relative;
+	top: -19px;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.productName {
+	padding-top: 4px;
+	vertical-align: bottom;
+}
+
+#lightBoxStockAvailability div.resultsTable table thead td.productName span {
+	border: none;
+	text-indent: -999px;
+}
+
+#lightBoxStockAvailability div.resultsTable table .productName span {
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* status styles */
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup p.inStockDetails,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 p.inStockDetails {
+	/* padding:5px 0 0 !important; */
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup  span.hidden,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2  span.hidden {
+	display: none;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.inStockDetails,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup p.inStockDetails,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 p.inStockDetails {
+	/* line-height: 12px; */
+	margin-bottom: 0px;
+	/* padding: 8px 0px 0px 0px; */
+	padding-left: 27px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.emailMe {
+	background: url(/wcsstore/argos/en_GB/images/lightbox/img/icon_envelope.gif) no-repeat 0px 2px;
+	font-size: 12px;
+	margin: 7px 0px 0px 0px;
+	padding-left: 15px;
+	text-align: center;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup p.timedOut,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 p.timedOut,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.requestError,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.postCodeInvalid,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.notAvailable,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup p.notAvailable,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 p.notAvailable {
+	margin: 20px 0px 0px 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery p.requestError2 {
+	margin-top: 2px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery .checkOtherStores,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup .checkOtherStores,
+#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 .checkOtherStores {
+	font-size: 11px;
+}
+
+div.postCodeState {	width: 455px !important; } /* post code */
+div.postCodeState .content h2 { margin-bottom: 0; }
+
+/* div#lightBoxStockAvailability.selectStoreState { width: 684px; }  select store */
+
+/* Webex New Visual Layout
+ *******************************/
+#lightBoxStockAvailability h3,
+#lightBoxStockAvailability h2 {
+ 	font-size: 16px;
+}
+
+#lightBoxStockAvailability .stockChecker span,
+#postCodeLightBox,
+#lightBoxStockAvailability .stockChecker label {
+	margin-right: 5px;
+}
+
+#lightBoxStockAvailability .stockChecker {
+	background: none;
+	padding: 0;
+	width: auto;
+}
+
+#lightBoxStockAvailability .townList,
+#lightBoxStockAvailability .storeList {
+	height: 200px;
+	overflow: auto;
+}
+
+#lightBoxStockAvailability .improvedInv .storeList {
+	height: auto;
+}
+
+#lightBoxStockAvailability .townList {
+	margin-top: 15px;
+}
+
+#lightBoxStockAvailability .townList ul,
+#lightBoxStockAvailability .storeList ul {
+	list-style: none outside none;
+	margin: 0; 
+	padding: 0;
+}
+
+#lightBoxStockAvailability .townList ul li,
+#lightBoxStockAvailability .storeList ul li {
+	padding-bottom: 2px;
+}
+
+#lightBoxStockAvailability .footer .stockChecker {
+	border-top: 1px solid #ccc;	
+	padding: 10px 0 10px 20px;
+	width: 100%;
+}
+
+#lightBoxStockAvailability #wiwiResults h3 {
+	margin-bottom: 0;
+}
+
+#lightBoxStockAvailability #wiwiResults .storeList .row {
+	display: block;
+    height: 20px;
+    clear:left;
+}
+
+#lightBoxStockAvailability #wiwiResults .storeList .checkInput {
+	width: 25px;
+	float: left;
+	padding: 2px 0;
+	font-size: 12px;
+}
+
+.postCodeState .actions,
+.selectStoreState .actions,
+.selectStoreStateImpInv .actions {
+	margin-top: 10px;
+    text-align: right;
+}
+
+.postCodeState .content {
+	padding: 20px 16px 20px 16px;
+	overflow: hidden;
+}
+
+.multipleViewOneStoreOneResult .content {
+	padding: 20px 10px 20px 10px;
+}
+
+#lightBoxStockAvailability #buyOrReserveForm {
+	text-align: right;
+}
+
+#lightBoxStockAvailability #buyOrReserveForm p.info {
+	display: inline;
+}
+
+#lightBoxStockAvailability .homeDeliveryAndStorePickup {
+	padding: 20px 0 20px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#lightBoxStockAvailability .homeDeliveryAndStorePickup .buyOrReserve {
+	margin-left: 10px;
+}
+.CheckStockActivatee #lightBoxStockAvailability .error {
+	height: auto;
+	margin: 0;
+	width: auto; 
+}
+#wiwiCheckOtherArea {
+	margin-bottom: 15px;
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+div#lightBoxStockAvailability table tbody tr td .inStock {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif") no-repeat -50px -35px;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0px;
+	position: relative;
+	padding: 4px 0px 4px 27px;
+	zoom: 1;
+}
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.homeDelivery .outOfStock,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup .outOfStock,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 .outOfStock {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif") no-repeat -130px -143px;
+	display: block;
+	margin-bottom: 0px;
+	padding-left: 27px;
+	padding-bottom: 5px;
+	zoom: 1;
+}
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 .improvedStockOOSAtNearest2Stores .outOfStock,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup .improvedStockOOSAtNearest2Stores .outOfStock {
+	display: block;
+	margin-top: 5px;
+}
+
+span.locationOutOfStock {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#lightBoxStockAvailability #showOtherNearbyStoresWithStock { font-size: 92%; text-decoration: underline; }
+
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea {
+	padding:15px 0 15px 35px;
+	background:url(/wcsstore/argos/en_GB/images/lightbox/img/icon_map.gif) no-repeat 0 13px;
+	border-bottom: 0;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea {
+	padding:13px;
+	text-align:left;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea .fieldIndicator {
+	border-bottom:1px solid #ccc;
+	font-weight:bold;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea {
+	padding:15px 0 15px 35px;
+	background:url(/wcsstore/argos/en_GB/images/lightbox/img/icon_map.gif) no-repeat 0 13px;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea .searchHint {
+	display:block;
+	padding-bottom:10px;
+	font-weight: bold;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea input {
+	float:left;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea #checkStock {
+	padding: 4px 10px;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea input#postCodeLightBox {
+	margin-right:5px;
+    line-height: 1.2em;
+    padding: 3px 3px 2px;
+    width: 185px;
+    border: 1px solid #CBCCCC;
+}
+div#lightBoxStockAvailability div.improvedInventory_checkStockInOtherArea #wiwiCheckOtherArea .clear {
+	clear:both;
+}
+#oosAtTenNearestStoresLink {
+	text-decoration: underline;
+}
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup span#csoInstock,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 span#csoInstock {
+	/*background:url('/wcsstore/argos/en_GB/images/lightbox/img/icon_tick_amber.gif') no-repeat 0 0;*/
+	padding:3px 0 0 0;
+	color:#FF6D00;
+	font-weight:bold;
+	top:1px;
+	position:relative;
+	display:block;
+	text-align:center;
+}
+
+
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup span.csoDate,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 span.csoDate {
+	text-align: center;
+}
+
+div#lightBoxStockAvailability div#checkOtherStores table tbody tr td span#csoInstock {
+	color:#FF6D00;
+	display: block;
+	font-weight:bold;
+	padding: 0px 0 0 14px;
+	text-align:left;
+}
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup span.date,
+div#lightBoxStockAvailability div.resultsTable table tbody tr td.storePickup2 span.date {
+	font-weight: normal;
+	color: #333333;
+	display:block;
+	line-height:1.2em;
+	padding-top:8px;
+}
+
+******************************************************
+* CR 749 - Improved Inventory Stock Checker --- Check other stores
+******************************************************/
+#lightBoxStockAvailability div#checkOtherStores div.stores {
+	background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/reservationflow_check_other_stores_bg_bot.gif) bottom left no-repeat;
+	*zoom:1;
+}
+
+#lightBoxStockAvailability table.stores {
+	table-layout: fixed;
+	width: 100%;
+}
+
+#lightBoxStockAvailability table.stores thead {}
+
+#lightBoxStockAvailability table.stores thead tr {}
+
+#lightBoxStockAvailability table.stores thead tr th {
+	padding-top: 8px;
+	padding-bottom: 6px;
+	font-size: 12px;
+	text-align: left;
+	background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolleylist_basic_td_bg.gif) repeat-x left bottom;
+	font-weight: bold;
+}
+
+#lightBoxStockAvailability table.stores thead tr th.store {
+	width: 220px;
+	padding-left:12px;
+}
+
+#lightBoxStockAvailability table.stores thead tr th.distance {
+	width:60px;
+}
+
+#lightBoxStockAvailability table.stores thead tr th.store span.info {
+	font-weight: normal;
+}
+
+#lightBoxStockAvailability table.stores tbody {}
+
+#lightBoxStockAvailability table.stores tbody td {
+	vertical-align: top;
+	padding-bottom: 7px;
+	*padding-bottom: 6px;
+	padding-top: 7px;
+	*padding-top: 6px;
+	background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolleylist_basic_td_bg.gif) repeat-x left bottom;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store {
+	padding-left: 12px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field {
+	background-color: transparent;
+	padding-bottom: 0px;
+	overflow:visible !important;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field input.checkbox {
+	float: left;
+	display: inline;
+	margin-right: 6px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field label {
+	float: left;
+	font-size: 12px;
+	margin-right: 4px;
+	display: inline;
+	*margin-top: 3px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field label img {
+	vertical-align: middle;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.lightboxDisplay {
+	float: left;
+
+	width: 170px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.lightboxDisplay label {
+	display: inline;
+	
+	float: none;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation {
+	float: left;
+	
+	*margin-top: 3px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.lightboxDisplay div.storeInformation  {
+	display: inline;
+    float: none;
+   
+}
+
+
+#lightBoxStockAvailability table.stores tbody td.store div.storeInformation div.icon a {
+	background: none;
+	display: block;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.storeInformation div.icon a img {
+	display: block
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.lightboxDisplay div.storeInformation div.icon,
+#lightBoxStockAvailability table.stores tbody td.store div.lightboxDisplay div.storeInformation div.icon img,
+#lightBoxStockAvailability table.stores tbody td.store div.lightboxDisplay div.storeInformation div.icon a {
+	display: inline;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.lightboxDisplay div.storeInformation div.icon img {
+	margin-bottom: -2px;
+}
+
+
+
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble {
+	display: none;
+	position:absolute;
+	bottom: 9px;
+	left: 3px;
+	background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolley_store_info_top.png) no-repeat top left;
+	_background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolley_store_info_top.gif) no-repeat top left;
+	padding-top: 10px;
+	width: 290px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubbleInner {
+	background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolley_store_info_bottom.png) no-repeat bottom left;
+	_background: url(/wcsstore/argos/en_GB/images/p2/newtrolley/img/trolley_store_info_bottom.gif) no-repeat bottom left;
+	padding-bottom: 22px;
+	padding-left: 12px;
+	padding-right: 12px;
+	*zoom: 1;
+	font-size: 150%;
+	overflow: hidden;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble div.section01 {
+	float: left;
+	width: 155px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble div.section02 {
+	float: left;
+	width: 111px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble h4 {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble div.section01 h4 {
+	margin-bottom: 19px;
+	margin-right:5px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble div.section02 h4 {
+	margin-bottom: 7px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble p.address {
+	margin-bottom: 13px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble p.viewMap {
+	margin-bottom: 15px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble p.viewMap a {
+	font-weight: bold;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble p.subjectToChange {
+	font-size: 1em;
+	margin-bottom: 0px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble table.openingHours {
+	table-layout: fixed;
+	width: 111px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble table.openingHours th {
+	font-size: 12px;
+	padding: 0px 13px 2px 0px;
+	width: 20px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.store div.field div.storeInformation div.bubble table.openingHours td {
+	background:transparent;
+	padding: 0px 0px 2px 0px;
+	font-size: 12px;
+	width: 73px;
+}
+
+#lightBoxStockAvailability table.stores tbody td.distance {
+	font-size: 12px;
+}
+.inStockDetailsLink {
+	margin-bottom: 0;
+	padding-left: 0;
+	margin-top: 5px;
+}
+#lightBoxStockAvailability .stockCheckContext {	
+	background-position: -4px -161px;
+	height: 16px;
+}
+div#lightBoxStockAvailability .improvedInv .storeSelection table tbody tr td .inStock {
+	margin-top: -5px;
+}

@@ -1,0 +1,95 @@
+/* Containers/objects removed from print view */
+
+#mainnav,
+#pdpProductReviews,
+#pdpNavigation,
+#pdpPromotionsCarousel,
+#pdpAlternativeProducts,
+#pdpBriefDetails,
+#serviceDeliveryOptions,
+pdpCreditOfferBanner,
+#pdpActions,
+#footerbase,
+.backToTopAnchor,
+.promotionsNavigation,
+li.stockChecker,
+.carousel .back, 
+.carousel .forward,
+p.newwindow,
+ul.multimediaactions {
+	display: none!important;
+}
+
+#content {
+	margin: 0px;
+}
+
+#pdpInformation {
+	width: 450px;	
+	border-top: none;
+}
+
+#pdpPurchase {
+	width: 450px;	
+	text-align: left;
+}
+
+#pdpPurchase input.btnbuyreserve {
+	display: block!important;
+}
+
+.pdpRelatedInformationWrapper,
+#pdpEssentialExtras,
+#pdpAdditionalItems,
+.pdpRelatedInformation,
+.pdpRelatedInformation .content {
+	clear: both;
+	width: 100%!important;
+	border: none!important;
+	border-color: transparent!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+	padding-left: 0px!important;
+}
+
+.pdpRelatedInformation {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pdpRelatedInformation h2,
+.pdpRelatedInformation h2 span {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+
+.pdpRelatedInformation .product {
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+#pdpFullProductInformation #contentLeftBlock {
+	width: 350px;
+}
+
+#pdpPromotions h2 {
+	border-bottom: 5px solid #E42119;
+	padding-left: 0px;
+}
+
+#pdpPromotions .promotionHeader {
+	padding-left: 0px;
+}
+
+#pdpPromotions h3 {
+	border-bottom: 2px solid #E42119;
+	width: 100%;
+	padding-left: 0px;
+}
+
+#pdpPromotions .description, 
+#pdpPromotions .shortDescription {
+	padding-left: 0px;
+}
+ 

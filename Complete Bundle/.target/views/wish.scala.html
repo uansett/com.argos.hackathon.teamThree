@@ -1,0 +1,114 @@
+@(customerId: Int, start: String, end: String)
+@Html(start)
+
+<div class="detailsContainer">
+	<hr class="deliveryContainerLineOne">
+	 <div class="postCodeCheck">
+		 <!--  <div id="PostCodeError" style="display: none"></div> -->
+		<label for="fulfilmentPostcode">Enter postcode to check availability:
+		</label>
+		<div id="postcodeErrorMsg" style="display: none;"><p id="ErrorText"></p></div>
+			<input type="text" name="postcode" value="Postcode" id="postCodeValue" class="formValues"> 
+		<a class="button" href="javascript:void(0);" onclick="s_objectID=&quot;javascript:void(0);_1&quot;;return this.s_oc?this.s_oc(e):true">
+			Go</a>
+		</div>
+		<div id="inStock">
+			<hr class="deliveryContainerLineOne">
+			<div class="quantity first">
+				&nbsp;&nbsp;&nbsp;<label>Quantity:
+				</label> 
+				<select id="changeOptions1" name="changeOptions">
+					
+						<option value="1">1</option>
+					
+						<option value="2">2</option>
+					
+						<option value="3">3</option>
+					
+						<option value="4">4</option>
+					
+						<option value="5">5</option>
+					
+						<option value="6">6</option>
+					
+						<option value="7">7</option>
+					
+						<option value="8">8</option>
+					
+						<option value="9">9</option>
+					
+						<option value="10">10</option>
+					
+				</select>
+			</div>
+			<div class="clearfix"></div>
+			<hr class="deliveryContainerLineOne">
+			<input class="button continue progressive btnbuyreserve buttAddToTrolleyDelivery" type="submit" onclick="addtocartDelivery()" value="Buy or Reserve">
+		</div>
+	
+</div>
+
+
+
+<!-- Code end for RC48 for display of Delivery Global Tab -->
+	<hr>
+	<div id="pdpCreditOfferBanner">		
+		<p>
+			
+			<span id="mainText">
+				<strong>
+					Buy now, pay 9 Months later<span style="color: #333333;"> or </span>36 Months at &#163;51.54, APR 19.9%
+				</strong>
+			</span>
+		</p>
+		<p class="deal">
+			<span>when you buy with the Argos Card.</span>
+			Representative <span class="aprtext">29.9% APR </span> variable
+		</p>
+		<div class="buttonParallel">
+				
+				<a class="button creditAnchor" href="http://www.argos.co.uk/static/Product/partNumber/1062487.htm#pdpCreditOffers" title="More details" onclick="s_objectID=&quot;http://www.argos.co.uk/static/Product/partNumber/1062487.htm#pdpCreditOffers_2&quot;;return this.s_oc?this.s_oc(e):true">
+					More details
+				</a>
+			
+		</div>
+	</div>
+	
+	<hr>
+	<input class="button continueWish progressive btnwishlist buttAddToWishList" type="submit" onclick="toggle_visibility('accordion')" id="ArgosWishIt" value="ArgosWish It!">
+	<hr>
+	<div id="accordion" style="display: none; padding-left: 1.5em;padding-bottom: 1.5em;">
+		<label for="fulfilmentPostcode">Wish Price :</label>
+		<div id="postcodeErrorMsg" style="display: none;"><p id="ErrorText"></p></div>
+		&#163; <input type="text" name="wishPrice" value="0" id="wishPrice" class="formValues"> 
+		<a class="button" onclick="addWishList('accordion')">WishIt!</a> <br><br>
+		<input type="hidden" id="custID" value="@customerId">
+		<input type="hidden" name="productId" value="1062487" id="productId">
+		<label for="fulfilmentPostcode">We will contact you when the price drops.</label> <Br>
+	</div>
+	
+	
+				</div>
+			
+			
+		</div>
+	
+	<div id="shutl_espot_msg">
+		
+	</div>
+		
+	 <div style="display:none;" id="alternativesFlag">1</div></div> 
+					<!-- NEHA : Commented out for OTC- START --><!-- NEHA : Commented out for OTC- END -->
+				</div>
+				
+		
+	</div>
+	
+	
+</div>	
+		
+		</div>
+	
+</div>
+
+@Html(end)

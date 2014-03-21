@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /u/:user                           controllers.Application.index(user: Int)
+GET     /wish/add                       controllers.Application.addWish(user: Long, productId: Long, price: Double)
+GET		/admin							controllers.Application.admin()
+GET		/changeprice				    controllers.Application.changePrice(productId: Long, price: Double)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public/resouces", file)
+GET     /stian/*file               controllers.Assets.at(path="/public", file)
