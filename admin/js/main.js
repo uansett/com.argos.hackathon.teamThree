@@ -80,6 +80,13 @@ function addProductListing(parameter){
     // $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=et6qxnqrjbmqzrkh4spajzqs&callback=addGraphForProduct");
     // UAT1
     $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=4n5wt8jqfj6b87y5p3uaxdpa&callback=addGraphForProduct");
+    $('.stream').append('<input type="text" name="priceDrop"><button type="button" onclick="dropPrice()">Adjust Price</button>');
+}
+
+function dropPrice(){
+
+    alert("Price Adjusted to "+$("input[name=priceDrop]").text()+"");
+
 }
 
 function addGraphForProduct(data){
@@ -90,7 +97,7 @@ function addGraphForProduct(data){
     var name = $xml.find("ShortDescription").text();
 
     $('.stream').append('<div id="chart"><svg></svg></graph>');
-    drawSnassyGraphForProduct(catnum);
+    drawSnassyGraphForProduct(name);
 }
 
 function drawSnassyGraphForProduct(catnum){
@@ -112,8 +119,9 @@ chart.xAxis
 chart.yAxis
     .tickFormat(d3.format(',f'));
 
+
 d3.select('#chart svg')
-    .datum(exampleData())
+    .datum(exampleData)
     .call(chart);
 
 nv.utils.windowResize(chart.update);
@@ -123,9 +131,21 @@ return chart;
 
 }
 
-
+function compare(a,b) {
+      if (parseInt(a.y) < parseInt(b.y))
+         return -1;
+      if (parseInt(a.y) > parseInt(b.y))
+        return 1;
+      return 0;
+    }
+// /productId=&price=
 function exampleData() {
-    return stream_layers(2,80,0).map(function(data, i) {
+    var data = [[{x:'1418.99',y:'0'},{x:'1200',y:'80'},{x:'1000',y:'68'},{x:'1100',y:'56'},{x:'900',y:'18'},{x:'800',y:'10'},{x:'200',y:'3'}],[{x:'1418.99',y:'0'},{x:'1200',y:'210'},{x:'1000',y:'99'},{x:'1100',y:'90'},{x:'900',y:'20'},{x:'800',y:'7'},{x:'200',y:'0'}]];
+
+    data[0].sort(compare);
+    data[1].sort(compare);
+    return data.map(function(data, i) {
+        console.log(stream_layers(2,14));
         var thiskey;
         if(i == 0) thiskey = 'Wishes this month';
         else thiskey = 'Wishes last three  months';
