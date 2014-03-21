@@ -1,5 +1,6 @@
 var stopLoadingFlag = false;
 var global_product;
+var global_catnum;
 
 if(getURLParameters("product")){
     stopLoadingFlag = true;    
@@ -80,12 +81,15 @@ function addProductListing(parameter){
     // $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=et6qxnqrjbmqzrkh4spajzqs&callback=addGraphForProduct");
     // UAT1
     $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=4n5wt8jqfj6b87y5p3uaxdpa&callback=addGraphForProduct");
-    $('.stream').append('<input type="text" name="priceDrop"><button type="button" onclick="dropPrice()">Adjust Price</button>');
+    $('.stream').append('<input type="text" id="newprice" name="priceDrop"><button type="button" onClick="dropPrice();">Adjust Price</button>');
 }
 
 function dropPrice(){
 
-    alert("Price Adjusted to "+$("input[name=priceDrop]").text()+"");
+    var jqxhr = $.get( "/changePrice?productId="+global_catnum+"&price="+$("#newprice").val()+", function() {
+        alert("Price Adjusted to "+$("#newprice").val()+". 350 customers will be notified.");
+    });
+
 
 }
 
@@ -93,7 +97,7 @@ function addGraphForProduct(data){
     var xmlDoc = $.parseXML( data ),
         $xml = $( xmlDoc );
     var price = $xml.find("Price").text();
-    var catnum = $xml.find("Product").attr("id");
+    global_catnum = $xml.find("Product").attr("id");
     var name = $xml.find("ShortDescription").text();
 
     $('.stream').append('<div id="chart"><svg></svg></graph>');
