@@ -1,4 +1,5 @@
 var stopLoadingFlag = false;
+var global_product;
 
 if(getURLParameters("product")){
     stopLoadingFlag = true;    
@@ -56,7 +57,7 @@ function getURLParameters(paramName)
         {
             var sParam =  arrURLParams[i].split("=");
             arrParamNames[i] = sParam[0];
-            if (sParam[1] != "")
+            if (sParam[1] !== "")
                 arrParamValues[i] = unescape(sParam[1]);
             else
                 arrParamValues[i] = false;
@@ -88,45 +89,85 @@ function addGraphForProduct(data){
     var catnum = $xml.find("Product").attr("id");
     var name = $xml.find("ShortDescription").text();
 
-    $('.stream').append('<div class="graph '+catnum+'"></graph>');
+    $('.stream').append('<div id="chart"><svg></svg></graph>');
     drawSnassyGraphForProduct(catnum);
 }
 
 function drawSnassyGraphForProduct(catnum){
+    global_product = catnum;
+    $('.page-header').html('Wishes for '+global_product);
 
-    nv.addGraph(function() {
-        var chart = nv.models.multiBarChart()
-        .transitionDuration(350)
-        .reduceXTicks(true)   //If 'false', every single x-axis tick label will be rendered.
-        .rotateLabels(0)      //Angle to rotate x-axis labels.
-        .showControls(true)   //Allow user to switch between 'Grouped' and 'Stacked' mode.
-        .groupSpacing(0.1)    //Distance between each group of bars.
-        ;
+nv.addGraph(function() {
+    var chart = nv.models.multiBarChart()
+    .transitionDuration(350)
+    .reduceXTicks(true)   //If 'false', every single x-axis tick label will be rendered.
+    .rotateLabels(0)      //Angle to rotate x-axis labels.
+    .showControls(true)   //Allow user to switch between 'Grouped' and 'Stacked' mode.
+    .groupSpacing(0.1)    //Distance between each group of bars.
+    ;
 
-    chart.xAxis
-        .tickFormat(d3.format(',f'));
+chart.xAxis
+    .tickFormat(d3.format(',f'));
 
-    chart.yAxis
-        .tickFormat(d3.format(',.1f'));
+chart.yAxis
+    .tickFormat(d3.format(',f'));
 
-    d3.select('#chart1 svg')
-        .datum(exampleData())
-        .call(chart);
+d3.select('#chart svg')
+    .datum(exampleData())
+    .call(chart);
 
-    nv.utils.windowResize(chart.update);
+nv.utils.windowResize(chart.update);
 
-    return chart;
+return chart;
+});
+
+}
+
+
+function exampleData() {
+    return stream_layers(2,80,0).map(function(data, i) {
+        var thiskey;
+        if(i == 0) thiskey = 'Wishes this month';
+        else thiskey = 'Wishes last three  months';
+        
+        return {
+            key: thiskey,
+           values: data
+        };
     });
+} 
 
-    function exampleData() {
-        return stream_layers(3,10+Math.random()*100,.1).map(function(data, i) {
-            return {
-                key: 'Stream #' + i,
-               values: data
-            };
-        });
-    })
+function stream_layers(n, m, o) {
+    if (arguments.length < 3) o = 0;
+    function bump(a) {
+        var x = 1 / (.1 + Math.random()),
+            y = 2 * Math.random() - .5,
+            z = 10 / (.1 + Math.random());
+        for (var i = 0; i < m; i++) {
+            var w = (i / m - y) * z;
+            a[i] += x * Math.exp(-w * w);
+        }
+    }
+    return d3.range(n).map(function() {
+        var a = [], i;
+        for (i = 0; i < m; i++) a[i] = o + o * Math.random();
+        for (i = 0; i < 5; i++) bump(a);
+        return a.map(stream_index);
+    });
+}
 
+/* Another layer generator using gamma distributions. */
+function stream_waves(n, m) {
+    return d3.range(n).map(function(i) {
+        return d3.range(m).map(function(j) {
+            var x = 20 * j / m - i / 3;
+            return 2 * x * Math.exp(-.5 * x);
+        }).map(stream_index);
+    });
+}
+
+function stream_index(d, i) {
+    return {x: i, y: Math.max(0, d)};
 }
 
 
