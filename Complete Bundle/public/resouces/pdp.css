@@ -1,0 +1,2709 @@
+/*New CSS*/
+.clearfix {
+	clear:both;
+}
+.clearLeft {
+	clear:left;
+}
+#list_bullet {
+	list-style: disc;
+	list-style-position: inside;
+	padding-left:20px;
+}
+#belowStock {
+	border-bottom: 1px solid #cdcdcd;
+	margin-top:10px;
+	padding-top:10px;
+}
+/*Location Determine*/
+#findLocation {
+	background-image: url(/wcsstore/argos/en_GB/siteAssets/images/Location.png);
+	background-repeat: no-repeat;
+	width:206px;
+	height: 25px;
+	background-size: 26px 25px;
+	padding-left: 40px;
+	padding-top: 4px;
+	margin-left: 10px;
+	float:left;
+
+}
+
+#changeLocation {
+	padding-top: 4px;
+	margin-right: 13px;
+	float:right;
+}
+
+#dropdownStore {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 8px solid #000000;
+	display: inline-block;
+}
+
+
+/*Tab section starts here*/
+.tabs_section{ float:left; width:100%; background:#e5e5e5;}
+.tabs_section .tabs,
+.closeContainer { background-color: #EEEEEE;
+	background-image: linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -o-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -moz-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -ms-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.18, #EEE),
+		color-stop(0.59, #FFF),
+		color-stop(0.8, #FFF)
+	);
+    float:left;
+    width:100%;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0px;
+    padding: 20px 0 0;
+    line-height: 1.2;
+}
+
+.quantity_l{   line-height: 24px;    padding: 16px 20px 0;font-size: 1.184em;}
+.quantity_l select {    margin: 0 5px;    width: 50px;}
+.quantity_right{   line-height: 24px;    padding: 3px 10px 0 0;font-size: 1.184em; float:right}
+.quantity_right select {    margin: 0 0 0 5px;    width: 50px}
+
+.click_reserve {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.click_reserve .bigBlueButton {
+    width: 298px;
+	    background-color: #07AAC9;
+    background-image: -moz-linear-gradient(center bottom , #96b325 27%, #9bb828 27%, #a2c128 44%);
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 3px 5px;
+}
+
+/*Tab navigation starts here*/
+.tabs_section .tabs ul{
+	float:left;  
+	margin-bottom:-1px ;
+	position:relative; 
+	list-style:none;
+	width:98%; 
+	padding-right:2%;
+	float:left;
+	margin-top:-2px;
+}
+.tabs_section .tabs ul li{ float:left; padding:0 0 0 3%; width:47%;}
+.tabs_section .tabs ul li a{ float:left; color:#000000;font-size: 1.184em; text-align:center;
+	 width:98%;
+	line-height:34px; 
+	border-top:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc; 
+	border-right:1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	 font-weight:bold; border-radius: 6px 6px 0 0; 
+	 -webkit-border-radius: 6px 6px 0 0;  -moz-border-radius: 6px 6px 0 0 ;  -ms-border-radius: 6px 6px 0 0 ; 
+	  -o-border-radius: 6px 6px 0 0 ;  
+	 		
+    background-image: linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+	background-image: -o-linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+	background-image: -moz-linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+	background-image: -webkit-linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+	background-image: -ms-linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(-0.19, #EEE),
+		color-stop(0.88, #FFF),
+		color-stop(0.50, #FFF)
+	);
+	height: 56px;
+   }
+.tabs_section .tabs ul li a.active1{
+ background:#fff;
+ border-bottom: 1px solid #fff; 
+}
+/*Tab navigation ends here*/
+
+/*Tab Content  starts here*/
+.tab_content_area{ float:left; width:100%; background:#fff;border-bottom:1px solid #cdcdcd  }
+.tabs_section  .home_delivery{padding: 20px 20px 0; }
+.tabs_section  .home_delivery p{background:#f4f4f4; line-height:35px;}
+.tabs_section  .home_delivery p span{ padding:8px 10px; float:left}
+#mainnav{ float:left; width:100%; padding-bottom:10px}
+.findStock {    padding: 15px 0 0 10px;;    text-align: left; }
+.findStock .findStockButton{ font-weight:normal; border:1px solid #cccccc;
+	border-radius: 3px 3px 3px 3px;  
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-ms-border-radius: 3px 3px 3px 3px;  
+	-moz-border-radius: 3px 3px 3px 3px ;   
+	-o-border-radius: 3px 3px 3px 3px ;
+    background-image: linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -o-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -moz-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -ms-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.18, #EEE),
+		color-stop(0.59, #FFF),
+		color-stop(0.8, #FFF)
+	);
+	background-color:#EEE; line-height:25px; padding:0 15px; margin:0}
+.tabs_section .top_cotent{ padding: 20px 10px 0;}
+.tabs_section .top_cotent p{ line-height:24px; }
+.tabs_section .top_cotent p small{ background:url(pic.gif) no-repeat 0 0px; width:35px ; height:21px; float:left; padding:0 10px 0 0}
+
+#tab1 {
+	background-color: #FFFFFF;
+}
+
+#collection {
+  background: url("/wcsstore/argos/en_GB/siteAssets/images/icon_store.gif") no-repeat scroll 40px 25px transparent;
+  float: left;
+  height: 49px;
+  padding-left: 75px;
+  padding-top: 15px;
+}
+
+
+.tabs_section .tabs ul li a:hover {
+	text-decoration: none;
+}
+
+#delivery {
+  background: url("/wcsstore/argos/en_GB/siteAssets/images/icon_delivery.png") no-repeat scroll 48px 25px transparent;
+  float: left;
+  height: 49px;
+  padding-left: 83px;
+  padding-top: 15px;
+}
+
+.bigBlueButton,
+#fulfilment .continue,
+#stockChecker #selectStore1,
+#stockChecker #continueStore,
+#stockChecker #continueStoreTop {
+	background-image: linear-gradient(bottom, #09b0d0 27%, #07aac9 64%, #06a4c1 82%);
+	background-image: -o-linear-gradient(bottom, #09b0d0 27%, #07aac9 64%, #06a4c1 82%);
+	background-image: -moz-linear-gradient(bottom, #09b0d0 27%, #07aac9 64%, #06a4c1 82%);
+	background-image: -webkit-linear-gradient(bottom, #09b0d0 27%, #07aac9 64%, #06a4c1 82%);
+	background-image: -ms-linear-gradient(bottom, #09b0d0 27%, #07aac9 64%, #06a4c1 82%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.27, #09b0d0),
+		color-stop(0.64, #07aac9),
+		color-stop(0.82, #06a4c1)
+	);
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border: 1px solid #ccc;
+	background-color: #07aac9;
+	cursor: pointer;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+	line-height: 24px;
+	margin: 0 auto;
+	top: 3px;
+	margin-bottom: 10px;
+}
+
+
+.bigGreenButton,
+#fulfilment .continueWish,
+#stockChecker #selectStore1,
+#stockChecker #continueStore,
+#stockChecker #continueStoreTop {
+	background-image: linear-gradient(bottom, #FFFFFF 2%, #EEEEEE   64%, #FFFFFF  98%);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 2%, #EEEEEE   64%, #FFFFFF  98%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF  2%, #EEEEEE   64%, #FFFFFF  98%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 2%, #EEEEEE   64%, #FFFFFF  98%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 2%, #EEEEEE   64%, #FFFFFF  98%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.02, #FFFFFF ),
+		color-stop(0.64, #EEEEEE  ),
+		color-stop(0.98, #EEEEEE )
+	);
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border: 1px solid #ccc;
+	background-color: #07aac9;
+	cursor: pointer;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #666666;
+	line-height: 24px;
+	margin: 0 auto;
+	top: 3px;
+	margin-bottom: 10px;
+}
+
+
+
+.buttAddToTrolley,
+.buttAddToTrolleyDelivery {
+  display: block !important;
+  float: none;
+  font-size: 15px;
+  position: relative;
+  width: 270px;
+}
+
+.buttAddToWishList {
+  display: block !important;
+  float: none;
+  font-size: 15px;
+  position: relative;
+  width: 270px;
+}
+
+
+#fulfilment .buttAddToTrolleyLocal {
+  float: none;
+  font-size: 15px;
+  top: 0px;
+  position: relative;
+  width: 270px;
+}
+
+/*
+#fulfilment .continue {
+    margin: 10px 11px;
+}*/
+
+#fulfilment .blank {
+    background: none;
+}
+/*1 Click Activate Button*/
+#activate_block {
+    border: 1px solid #C9C9C9;
+    border-radius: 5px 5px 5px 5px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: -5px;
+    width: 278px;
+}
+.notification {
+  border: 1px solid #C9C9C9;
+  border-radius: 6px 6px 6px 6px;
+  display: block;
+  margin: 0 auto;
+  width: 270px;
+}
+.announce {
+   border-radius: 6px 6px 6px 6px;
+  margin-top: 20px;
+  padding: 0;
+  float: left;
+	margin-left: 50px;
+	width: 270px;
+	
+}
+.announce p {
+    text-align: center;
+    padding: 12px 4px 12px 8px;
+}
+
+.pdp #fulfilment .notification ul {
+  clear: both;
+  list-style: disc inside none;
+  margin-left: 20px;
+}
+
+
+
+.activate_block_inside
+{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#Activate_button_span
+{
+	margin-left: 27%;
+	margin-top: -5px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	font-size: 15px;
+
+}
+
+#activate_block_text
+{
+	position:relative; 
+	 top:-3px; 
+	 left:11px;
+}
+
+#activate_block_image
+{
+    	position:relative; 
+	 top:8px; 
+	 left:5px;	
+}
+.bigGreenButton,
+#fulfilment .activate {
+
+background: #8fc400; /* Old browsers */
+background: -moz-linear-gradient(top,  #8fc400 0%, #87ac19 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc400), color-stop(100%,#87ac19)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8fc400 0%,#87ac19 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc400', endColorstr='#87ac19',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border: 1px solid #ccc;
+	background-color:#87ac19;
+	cursor:pointer;
+	padding:3px 5px;
+	font-weight:normal;
+	font-size:18px;
+	color:#fff;
+	line-height:24px;
+}
+
+#fulfilment .activateLocal {
+
+background: #8fc400; /* Old browsers */
+background: -moz-linear-gradient(top,  #8fc400 0%, #87ac19 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc400), color-stop(100%,#87ac19)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8fc400 0%,#87ac19 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8fc400 0%,#87ac19 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc400', endColorstr='#87ac19',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border: 1px solid #ccc;
+	background-color:#87ac19;
+	cursor:pointer;
+	padding:3px 5px;
+	font-weight:normal;
+	font-size:18px;
+	color:#fff;
+	line-height:24px;
+}
+
+
+/*End of New  CSS*/
+
+/*Existing CSS */
+#breadcrumb .first,
+#breadcrumb .location,
+.accessibility,
+.hidden,
+.jsOnly,
+#colourPickerActivatee  .close,
+#colourPickerActivatee  iframe,
+#pdpCreditOffers .dealBody dl.message dt, 
+#socialLinks,
+#sizeSelectLabel,
+.hiddenOnLoad {
+	display: none;
+}
+.pdp .section {
+	border-top: 1px solid #CCCCCC;
+	overflow: hidden;
+	padding: 25px 0 25px;	
+	position: relative;
+}
+.pdp #main ul, ul.listerflags {
+  list-style: none outside none;
+}
+.pdp #main #list_bullet {
+	list-style: disc;
+	list-style-position: inside;
+	padding-left:20px;
+	clear: both;
+}
+.pdp .tabs01 {
+  margin-left: -40px;
+}
+ul.listerflags {
+	margin: 0;
+	padding: 0;
+}	
+#main .content {
+	position: relative;
+}
+.specialoffercount {
+	font-weight: bold;
+}
+
+
+
+#content_1 {display: none;}
+
+
+
+
+
+
+/* PDP Information
+ *******************************/
+#pdpDetails {
+	border: none;
+	overflow: hidden;
+	padding: 0 0 25px 0;
+}
+
+
+#pdpProductInformation {
+	float: left;
+	width: 520px;
+}
+
+/*Sakshi: Changed float to left in pdpInformation*/
+#pdpInformation {
+	float: left;
+	position: relative;
+	width: 520px;
+}
+.pdpflags {
+	margin-bottom: 5px;
+	min-height:14px; 
+	height:14px;
+	padding: 0;
+	margin: 0;
+} 
+.pdpflags li.flag {
+	padding-right:2px;
+	display:inline;
+}
+.pdpflags li.flag a {
+	display:block;
+	float:left; 
+}
+/*Added as part of Prepay Checkout*/
+/*Added Code*/
+.fn
+{
+	line-height: 20px;
+}
+/*Added as part of Prepay Checkout*/
+#pdpProduct {
+	/*clear: left;*/
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+	width: 340px;
+	/*Added*/
+	color:#333;
+	line-height: 20px;
+}
+
+#pdpProduct .identifier{
+	display:block;
+}
+
+#pdpProduct h1 {
+	display: inline;
+	font-size: 20px;
+	font-weight: normal;
+}
+/* Sakshi: Changed width in pdpSummaryWithMedia*/
+#pdpSummaryWithMedia {
+	float:left;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	width: 520px;
+}
+#pdpMedia {
+	border-bottom: 1px solid #cccccc;
+	float: left;
+	height: 354px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 520px;
+}
+#pdpMedia .multimediaactions {
+	margin-left: 0;
+	padding: 0;
+}
+#pdpMedia ul.multimediaactions li {
+	text-align: left;
+}
+#pdpMedia #main {
+	left: 92px;
+}
+
+#pdpMedia .jcarousel-container-vertical {
+	left: 14px;
+}
+
+#pdpMedia .s7carousel-larger-zoom-button {
+	left: 0;
+}
+
+#pdpSocialMedia { 
+	display: none;
+	float: left;
+	padding-top: 20px;
+	position: relative;
+	width: 100%;
+}
+
+#pdpSocialMedia .mediaItem {
+	float: left;	
+	width: 100px;
+}
+
+#pdpSocialMedia .mediaItem.sharebutton {
+	float: right;
+	margin-right; 3px;
+	text-align: right;
+	width: 10px; 
+}
+
+#pdpFullProductInformation .column {
+	float: left;
+	padding: 0px;
+	width: 495px;
+}
+
+#pdpFullProductInformation .column_2 {
+	padding-left: 10px;
+	width: 505px;
+}
+
+#ratingsReviews {
+	clear: left;
+	float:left;
+	margin-bottom: 15px;
+	width: auto;
+}
+
+
+
+/* Social links and page actions - this is legacy css
+ *******************************************************/
+#pdpActions {
+	left: 200px;
+	position: absolute;
+	top: 5px;
+}
+#pdpActions ul {
+	margin:0;
+}
+#pdpActions li { 
+	color: #333;
+	float: left;
+	font-size: 12px;
+	margin-left: 10px; 
+}
+#pdpActions #emailFriend {
+	background: transparent url(/wcsstore/argos/en_GB/images/p1/newproductdetails/img/icon_email_friend.gif) 0px 2px no-repeat;
+	padding-left: 15px;
+}
+#pdpActions #printPage {
+	background: transparent url(/wcsstore/argos/en_GB/images/p1/newproductdetails/img/icon_print_page.gif) 0px 2px no-repeat;
+	padding-left: 11px;
+	_padding-top: 1px;
+}
+#pdpSocialMedia a, 
+#pdpSocialMedia a:hover span {
+	background-color: #fff;
+}
+#pdpSocialMedia .sharewith a {
+	text-decoration: underline;
+}
+
+#socialLinks a.addthis_button_compact {
+	padding-left: 0px;
+}
+#socialLinks a.addthis_button_compact span {
+	margin: 0px;
+	padding: 0px;
+	padding-right: 4px;
+}
+
+#socialLinks a.addthis_button_compact:hover {
+	background-color: #ccc;
+}
+
+/* style to override random link bolding withint addthis widget*/
+
+#at_hover .at_bold {
+	font-weight: normal!important;
+}
+#pdpActions {width:450px;}
+
+
+/* socialLinks */
+#socialLinks { 
+	font-family: arial,helvetica,sans-serif; 
+}
+
+#socialLinks a {
+    background: url("/wcsstore/argos/en_GB/images/headerfooter/images/sharing-sprite_3.png") no-repeat 0 0 transparent;
+	float: left;
+	height: 16px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: relative;
+	text-indent: -9999px;
+	top: 2px;
+	width: 16px;
+}
+
+#pdpSocialMedia .shareitem {
+	background: transparent url(/wcsstore/argos/en_GB/images/headerfooter/images/sharing-sprite_3.png) no-repeat;
+    float: left;
+    height: 16px;
+	left: 5px;
+    margin: 5px 0 0 0;
+    padding: 0 5px 0 22px;
+	position: relative;
+    width: 95px;
+}
+
+/* variations of #socialLinks .shareitem */
+#pdpSocialMedia .delicious { background-position: 0px -16px; }
+#pdpSocialMedia .digg { background-position: 0px -32px; }
+#pdpSocialMedia .facebook { background-position: 0px -48px; }
+#pdpSocialMedia .google { background-position: 0px -64px; }
+#pdpSocialMedia .messenger { background-position: 0px -80px; }
+#pdpSocialMedia .newsvine { background-position: 0px -96px; }
+#pdpSocialMedia .reddit { background-position: 0px -112px; }
+#pdpSocialMedia .stumbleupon { background-position: 0px -128px; }
+#pdpSocialMedia .tumblr { background-position: 0px -144px; }
+#pdpSocialMedia .twitter { background-position: 0px -160px; }
+#pdpSocialMedia .email { background-position: 0 -176px; }
+
+#pdpSocialMedia #button {padding-top: 3px;}
+
+#pdpSocialMedia #sharetoggle {
+	font-size: 12px;
+	line-height: 1.5em;
+	text-indent: 0px;
+	width: auto;
+}
+
+/* variations of #socialLinks .qsXXXX type links */
+#pdpSocialMedia .qsDelicious { background-position: 0px -16px;}
+#pdpSocialMedia .qsDigg { background-position: 0px -32px;}
+#pdpSocialMedia .qsFacebook { background-position: 0px -48px;}
+#pdpSocialMedia .qsTwitter { background-position: 0px -160px;}
+
+#pdpSocialMedia .shareitem a {
+	background: none;
+	font-size: 12px; 
+	margin: 0;
+	position: static;
+	text-decoration: none;
+	text-indent: 0px;
+	width: auto;
+}
+
+#pdpSocialMedia .sharewith {
+	background-color: #fff;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
+	display: none;
+	padding: 10px;
+    position: absolute;
+	right: -244px;
+	top: 15px;
+    width: 255px;
+    z-index: 1;
+}
+
+#pdpSocialMedia .sharewith .header p {
+	background: url("/wcsstore/argos/en_GB/images/headerfooter/images/sharethis_button.png") no-repeat scroll 5px 5px transparent;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 5px 5px 28px;
+}
+
+#pdpSocialMedia #theShare {
+	float: left;
+	position: relative;
+	top: -3px;
+}
+
+.richerContentPopup #socialLinks #theShare {
+	float: right;
+	margin-top: 10px;
+}
+
+.richerContentPopup #socialLinks .sharewith {
+	left: auto;
+	margin-top: 10px;
+	right: 15px;
+}
+
+#pdpFullProductInformation .fullDetails {
+	clear: both;
+	float: left;
+	width: auto;
+}
+
+#pdpFullProductInformation .column .fullDetails {width: 475px;}
+
+#pdpFullProductInformation .fullDetails ul {
+	list-style-position: outside;
+	list-style-type: disc;
+	margin:0 0 10px 0;
+	padding-left: 15px;
+}
+
+#pdpFullProductInformation #additionalinfo {
+	clear: both;
+	float: left;
+	margin: 20px 0px;
+	width: 100%;
+}
+
+/* PDP Pricing
+ *******************************/
+#pdpPricing {
+	float: right;
+	margin: 0 0 15px 0;
+	position: relative;
+	width: 135px;
+}
+#pdpPricing .actualprice {
+	font-size: 24px;
+	font-weight: bold;
+}
+#pdpPricing .asterisk {
+	left: -4px;
+	position: relative;
+}
+#pdpPricing .freedelivery {
+	clear: left;
+	font-weight: bold;
+}
+#pdpPricing .saving {
+	color: #E42119;
+	font-weight: bold;
+}
+#pdpPricing .wasprice {
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+#pdpPricing .wasprice,
+#pdpPricing .saving,
+#pdpPricing .freedelivery {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 1px;
+	width: auto;
+}
+#pdpPricing .specialoffer {
+	background-image: linear-gradient(#e42119, #c91811);
+	color: #fff;
+	display: block;
+	float: left;
+	margin: 5px 0;
+}
+#pdpPricing .delflags,
+.pdpRelatedInformation .delflags {
+	margin: 0;	
+	padding: 0;
+}
+
+/* Short Customer Ratings / Credit
+ ************************************/
+#pdpShortCustomerRatings,
+#pdpShortQuestions {
+	clear: none;
+	float: left;
+	text-align: left;
+}
+#pdpCreditOfferBanner {
+	clear:both;
+	margin: 15px;
+}
+#pdpCreditOfferBanner h3 {
+	font-size: 15px;
+	color: #E42119;
+	margin: 5px 0 0 0;
+}
+#pdpCreditOfferBanner h3 span {
+	color: #000;
+	padding: 5px;
+}
+#pdpCreditOfferBanner p  {
+	padding-left: 5px;
+	margin: 0px;
+	width: 315px;
+}
+
+#pdpCreditOfferBanner p img {
+	display: none;
+}
+
+
+
+
+/********credit offer text style************/
+#pdpCreditOfferBanner span#mainText {
+    color: #E42119;
+    font-size: 16px;
+  
+    
+}
+
+#pdpCreditOfferBanner p.deal {
+	display: block;
+	margin-bottom: 5px;
+    margin-top: 5px;
+	
+}
+
+.buttonParallel {
+    margin-left: 234px;
+    width: 100px;
+}
+
+#pdpCreditOffers .creditHelpContext {
+	background-position: -4px -211px;
+	display: inline-block;
+    height: 18px;
+    margin: 0 0 0 3px;
+    vertical-align: bottom;
+}
+#pdpCreditOffers .creditHelp {
+	margin: 0 0 1em;
+}
+
+
+/* PDP Breadcrumb
+ **********************************/
+/*Sakshi: Added subheader*/
+#subheader {
+float: left;
+width: 520px;
+} 
+/*Sakshi:modified width in breadcrumb*/
+#breadcrumb {
+	color: #666;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 0px 25px 15px 0px;
+	/*mModified*/
+	width: 520px;
+}
+#breadcrumb a:active,
+#breadcrumb a:link,
+#breadcrumb a:visited { 
+	color: #666; 
+}
+#breadcrumb a:hover { color: #09b2d1; }
+#breadcrumb .searchpre {
+	left: 0px;
+	position: relative;
+}
+#breadcrumb ol {
+	display: inline;
+}
+#breadcrumb li {
+	background: transparent url(/wcsstore/argos/en_GB/images/p1/icon_breadcrumb_gt.gif) 0 4px no-repeat;
+	display: inline;
+	padding: 0 6px 0 12px;
+}
+#breadcrumb strong { font-weight: normal; }
+#breadcrumb ol {
+	padding-left: 0;
+}
+#breadcrumb {
+	padding: 15px 25px 15px 0;
+}
+#content_1 {
+	border: none;
+	padding: 0;
+}
+
+#breadcrumb li.noliststyle {
+	background: none;
+	padding-left: 0;
+}
+
+/* Fulfilment
+ **********************************/
+ /*Added as part of Prepay Checkout*/
+
+ 
+#fulfilment, #stockChecker {
+	background: #fff;    
+	border: 1px solid #ccc;
+    border-top:0;
+   display: inline-block;
+	float:right;
+	margin: 0;
+    min-height: 470px;
+	/*overflow: hidden;*/ /* ICR 0040 - allows FastTrack tooltip to be floated */
+	width: 310px;
+}
+
+#fulfilment {
+	box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.25);
+	position: relative;
+	width: 410px;
+	margin-bottom: 55px;
+}
+
+#fulfilment.product_unavailable {
+	border: none;
+	box-shadow: none;
+}
+
+#fulfilment.product_unavailable .note {
+	margin-top: 53px;
+	padding: 40px 47px;
+    text-align: center;
+    width: 210px;
+}
+
+#fulfilment.product_unavailable .note span {
+	font-size: 16px;
+}
+
+#stockChecker {
+	float:none;
+}
+
+/*Added as part of Prepay Checkout*/
+#fulfilment .emailMeBackInStock {
+	cursor: pointer;	
+	display: block;
+	font-size: 11px;
+	text-decoration: underline;
+	margin-top: 3px;
+}
+#fulfilment .emailMeBackInStock:hover {
+	color:#09B2D1;
+}
+#fulfilment h3 {
+	font-size: 16px;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+/*Added as part of Prepay Checkout*/
+#fulfilment hr,
+#stockChecker hr {
+    border: none;
+    border-bottom: 1px solid #CDCDCD;
+    clear: both;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 290px;
+}
+
+#fulfilment hr {
+	width: 390px;
+}
+
+#fulfilment hr.collectionContainerLineOne,
+#fulfilment hr.deliveryContainerLineOne {
+	float: left;
+	margin-top: 10px;
+}
+
+#fulfilment .submit, #stockChecker .submit {
+  padding: 6px 10px;
+}
+/*Added as part of Prepay Checkout*/
+#fulfilment .fulfilmentContext {
+	background-position: -4px -161px;
+}
+#fulfilment .optionHeading { display: none }
+
+#fulfilment input.jsOff {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.jsEnabled #fulfilment .optionHeading {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/oneClick_seperator.gif) repeat-x 0 8px;		
+	display: block;
+	float: left;
+	padding-bottom: 15px;
+	width: 100%;
+}
+#fulfilment .optionHeading .fulfilmentContext {
+	float: left;
+	margin: 0 0 0 3px;
+	height: 18px;
+}
+#fulfilment .optionHeading h4 {
+	display: block;
+	float: left;
+	margin: 0;
+}
+#fulfilment .optionHeading .info {
+	background: #fff;
+	float: left;
+	width: 310px;
+}
+#fulfilmentInfo ul,
+#stockChecker ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#fulfilmentInfo {
+	overflow: hidden;
+	
+}
+#fulfilmentInfo .option {
+	clear:both;
+	float: left;
+	width: 100%;
+}
+#fulfilmentInfo .option h4 span {
+	color: #09b2d1;
+}
+/*Added as part of Prepay Checkout*/
+#fulfilment .collectionContainer,
+#stockChecker .collectionContainer,
+ #fulfilment .detailsContainer,
+ #stockChecker .detailsContainer{
+     margin: 0 20px;
+ }
+
+#stockChecker .collectionContainer .submit {
+    top: 0;
+}
+#stockChecker .collectionContainer input[type="text"] {
+    width: 79%;
+}
+
+#stockChecker .collectionContainer .stockOptions label strong {
+	margin-left: 6px;
+}
+
+#fulfilment .collectionContainer .signNotice,
+#stockChecker .collectionContainer .signNotice {
+    font-size: 0.9em;
+    left: 30px;
+    position: relative;
+    top: 2px;
+
+}
+.collectionContainer hr, .detailsContainer hr {
+  margin:  10px 0 20px -10px;
+}
+
+.collectionContainer .nearestStores {
+	padding-left: 6px;
+}
+
+.collectionContainer .stockOptions label {
+	padding-left: 6px;	
+}
+
+/*Added as part of Prepay Checkout*/
+#fulfilment .quantity, 
+#stockChecker .quantity {
+  float: right;
+}
+/*Added as part of Prepay Checkout*/
+
+#fulfilment .quantity.first,
+#stockChecker .quantity.first{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.oneClickButtonContainer {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px 4px 4px 4px;
+  margin: 0 auto;
+  width: 267px;
+}
+
+#fulfilment .collectionContainer .quantity,
+#stockChecker .collectionContainer .quantity {
+  position: relative;
+ 	right: 5px;
+  top: 6px;
+}
+
+#fulfilment .collectionContainer .quantity {
+	right: 50px;
+	top: 1px;
+}
+
+#fulfilment .collectionContainer .clearfix {
+  margin-bottom: 12px;
+}
+
+#fulfilment .quantity label,
+#stockChecker .quantity label{
+	padding-right: 10px;
+}
+
+
+
+
+#fulfilment .oneClickButtonContainer .activate,
+#fulfilment .activate {
+  border-radius: 6px 6px 6px 6px;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 0 8px 50px;
+}
+
+#fulfilment .activate {
+  margin: 0 0 10px 20px;
+  text-align: center;
+  width: 218px;
+}
+
+#fulfilment div.SignInMessage {
+	margin-left: 50px;
+	width: 270px;
+}
+
+#fulfilment div.continueButton {
+	margin-left: 50px;
+	width: 270px;
+}
+
+
+#fulfilment .activateLocal {
+    text-align: center;
+    width: 218px;
+    border-radius: 6px 6px 6px 6px;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 0 8px 50px;
+	
+}
+
+#fulfilment input.activateLocal {
+    margin-bottom: 0;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 0 8px 50px;
+    text-align: center;
+    width: 270px;
+}
+
+
+
+
+#fulfilment .activateContainer {
+      float: left;
+      font-size: 1em;
+      font-weight: bold;
+      margin-left: 50px;
+      position: relative;
+      width: 270px;
+}
+#fulfilment .notification .activateContainer {
+    margin-left: 0px;
+}
+
+#fulfilment .oneClickButtonContainer .activateContainer {
+  margin-left: 0px;
+  
+}
+
+#fulfilment .oneClickButtonContainer .activate {
+  margin: 10px 8px;
+  width: 200px;
+}
+
+#fulfilment .iconActive {
+  left: 90px;
+  position: absolute;
+  top: 8px;
+}
+
+#fulfilment .iconActiveLocal {
+    left: 70px;
+    position: absolute;
+     top: 7px;
+}
+.turnOnClickBtn {
+	position: relative;
+}
+#fulfilment .oneClickButtonContainer .iconActive {
+  left: 16px;
+  position: absolute;
+  top: 16px;
+}
+
+#fulfilment .turnOnClickBtn .iconActiveLocal {
+	left: -11px;
+	position: absolute;
+	top: -1px;
+}
+
+/*Added as part of Prepay Checkout*/
+ul.fulfilmentResults li {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif) no-repeat 10px 0;
+	clear: left;
+	float: left;
+	margin-bottom: 15px;
+	min-height: 25px;
+	padding: 3px 0 0 90px;
+	width: 200px;
+}
+ul.fulfilmentResults li.deliverable {
+	background-position:10px -35px;
+	margin-bottom: 0;
+}
+
+ul.fulfilmentResults li.noDelivery {
+	display: none;
+}
+
+ul.fulfilmentResults li.noDelivery.display {
+	display: block;
+	width: auto;
+}
+
+ul.fulfilmentResults li.collect {
+	background-position:10px -105px;
+	margin-bottom: 0;
+	width: 200px;
+}
+ul.fulfilmentResults li.noCollect {
+	background-position:10px -70px;
+	width: 240px;
+}
+ul.sharedLeadText li.home {
+	padding-left: 170px;
+	background-position: 10px -139px;
+}
+.stockChecker {
+	background: #eeeeee;
+	float: left;
+	padding: 10px 20px;
+	width: 480px;
+}
+.stockChecker h2 {
+	display: inline;
+	font-weight: normal;
+	font-size: 12px;
+	margin-right: 5px;
+}
+#fulfilment .stockChecker input {
+	margin: 0 5px;
+}
+#fulfilmentInfo .button {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px 0;
+	text-align: center;
+	width: 280px;
+	vertical-align: middle;
+}
+#fulfilmentInfo #findStock {
+    background-image: -moz-linear-gradient(center top , #FFFFFF 0%, #EEEEEE);
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    min-height: 18px;
+}
+#fulfilment .tab_content_area,
+#stockChecker .tab_content_area{
+    border-bottom: none;
+}
+
+#fulfilment .notice {
+    background: #fefefe;
+    background: -moz-linear-gradient(top, #fefefe 0%, #e7e7e7 100%);
+    background: -ms-linear-gradient(top, #fefefe 0%,#e7e7e7 100%);
+    background: linear-gradient(to bottom, #fefefe 0%,#e7e7e7 100%);
+    border-bottom: 1px solid #cdcdcd;
+    margin: 0;
+    padding: 40px 0 16px;
+}
+#fulfilment .notice span {
+  background: url("/wcsstore/argos/en_GB/siteAssets/images/icon_store.gif") no-repeat scroll 55px 0 transparent;
+  display: block;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align:center;
+  font-size:15px;
+  padding-left:20px;
+  
+}
+
+#fulfilment .notice.delivery span {
+    background: url(/wcsstore/argos/en_GB/siteAssets/images/icon_delivery.png) no-repeat 71px 1px;
+}
+
+#fulfilment .note {
+  background: none repeat scroll 0 0 #F4F4F4;
+  margin: 8px auto 14px;
+  padding: 12px 0 4px 8px;
+  width: 370px;
+}
+
+#fulfilment .note img {
+  margin:  0 5px -2px 3px;
+  float:left;
+}
+#fulfilment .noteBlank {
+  margin-bottom: 14px;
+  padding: 15px 0 0 20px;
+}
+
+#fulfilment .stock {
+    background:#f4f4f4  no-repeat 13px 11px;
+}
+#fulfilment .available {
+    background:#f4f4f4  no-repeat 13px 11px;
+}
+#fulfilment .prepay {
+    background:#fff url(/wcsstore/argos/en_GB/siteAssets/images/icon_prepay.png) no-repeat 13px 11px;
+}
+.postCodeCheck label {
+  clear: both;
+  display: inline-block;
+  margin-top: 12px;
+}
+#fulfilmentPostcode {
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 210px;
+}
+#fulfilment .notification.announce .activateContainer {
+    margin-bottom: 6px;
+}
+#fulfilmentInfo .announce .continue {
+    margin: 0;
+    left: -1px;
+    position: relative;
+    top: -1px;
+}
+/* fulfulment_sprite */
+
+#stockChecker {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.85);
+    min-height: 0;
+}
+#stockChecker .closeContainer {
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px 0 7px 11px;
+}
+.CheckStockActivatee .close {
+    background-image: url("../images/icon_closeButton.gif");
+    background-position: 41px 8px;
+    background-repeat: no-repeat;
+    border-radius: 3px 3px 3px 3px;
+    float: right;
+    margin-right: -3px;
+    margin-top: -3px;
+    padding: 3px 0 3px 2px;
+}
+
+#stockChecker .TabbedArea .selected {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+#stockChecker .TabbedArea .tab {
+    margin-top: 15px;
+}
+#stockChecker .tabs_section {
+    margin-top: 42px;
+}
+#stockChecker .tabs_section .tabs ul li a {
+    height:auto;
+}
+#stockChecker .tabs_section .tabs {
+    background: #fff;
+}
+#stockChecker .TabbedArea h3 {
+    display: none;
+}
+.TabbedArea {
+    background: #fff;
+    min-height: 220px;
+}
+#stockChecker .TabbedArea .controller #StoreLocatorButtonWrapper {
+	background-color: #EEEEEE;
+	background-image: linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -o-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -moz-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -ms-linear-gradient(bottom, #EEE 18%, #FFF 59%, #FFF 80%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.18, #EEE),
+		color-stop(0.59, #FFF),
+		color-stop(0.8, #FFF)
+	);
+    float:left;
+	border-bottom:1px solid #DCDCDC;
+	width:100%;
+}
+.TabbedArea .controller button {
+    background-image: -moz-linear-gradient(center bottom , #EEEEEE -19%, #FFFFFF 88%, #FFFFFF 50%);
+    border-color: #DCDCDC;
+    border-radius: 6px 6px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    float: left;
+    font-size: 1.184em;
+    font-weight: bold;
+    height: auto;
+    line-height: 34px;
+    margin: 2px 0 -1px 4px;
+    padding: 0;
+    text-align: center;
+    width: 48%;
+}
+
+#stockChecker .areaOptions input[type="radio"],
+#stockChecker .faveOptions input[type="radio"]{
+    float: left;
+    position: relative;
+    top: 5px;
+}
+
+#stockChecker .stockOptions input[type="radio"]{
+    float: left;
+    position: relative;
+    top: 12px;
+}
+
+#stockChecker .stockOptions input[type="button"],
+#stockChecker .areaOptions input[type="button"],
+#stockChecker .faveOptions input[type="button"]{
+    width: 100%;
+}
+
+#stockChecker .stockOptions label,
+#stockChecker .faveOptions label{
+    display: block;
+    float: left;
+    padding:10px 0;
+    width: 90%;
+}
+#stockChecker .areaOptions label{
+    display: block;
+    padding:5px 20px;
+    width: 90%;
+}
+ 
+
+ 
+ #stockChecker .faveOptions .storename {
+    float: left;
+    width: 123px;
+  	font-weight: strong;
+}
+
+#stockChecker .faveOptions .stockIcon {
+    float: left;
+}
+
+#stockChecker .faveOptions .status {
+    float: left;
+    width: 95px;
+    margin: 0px; 
+    padding-left: 5px;
+}
+
+#stockChecker .faveOptions .signInMessage {
+	font-size: 14px;
+	text-align: center;
+
+}
+
+#stockChecker .faveOptions .signInButton {
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09b0d0', endColorstr='#06a4c1',GradientType=0 ); /* IE6-9 */
+     background-color: #07AAC9;
+    background-image: -moz-linear-gradient(center bottom , #09B0D0 27%, #07AAC9 64%, #06A4C1 82%);
+   background-image: -moz-linear-gradient(center top , #0AB1D1, #06A4C1); 
+	background-image: linear-gradient(#0AB1D1, #06A4C1);
+	background-image: linear-gradient(center top , #0AB1D1, #06A4C1);
+	background-image: -o-linear-gradient(center top , #0AB1D1, #06A4C1);
+	background-image: -moz-linear-gradient(center top , #0AB1D1, #06A4C1);
+	background-image: -webkit-linear-gradient(center top , #0AB1D1, #06A4C1);
+	background-image: -ms-linear-gradient(center top , #0AB1D1, #06A4C1);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.27, #09b0d0),color-stop(0.64, #07aac9),color-stop(0.82, #06a4c1));
+	color: #fff;
+	text-decoration: none;
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+}
+
+/* Once Click Reserve 
+****************************/
+.alernativeStores {
+	float: left;
+	margin-top: 20px;
+	width: 260px;
+}
+.alernativeStores h5 {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.disabledItem {
+	color: #999;
+}
+#nearestStoresContent {
+	width:440px;
+}
+#nearestStoresContent ul {
+	padding: 0;
+	margin: 0;
+	list-style: none outside none;
+}
+#fulfilmentInfo #oneClickContainer ul.activateUser {
+	list-style-type: disc;
+    padding-left: 20px;
+    padding-top: 4px;
+}
+#oneClickContainer .labelSet {	 
+	display: inline-block;
+    padding-left: 5px;
+    width: 220px;
+}
+#oneClickContainer .labelSet label {
+	padding-left: 0;
+}
+#oneClickContainer .pickUpMsg {
+	margin-top: 10px;
+}
+#oneClickContainer #oneClickActivate .button {
+	background-image: linear-gradient(#a1bf2d, #94b125);
+}
+#oneClickContainer .oneClickDisabled {
+	color: #ccc;
+	opacity:0.5;
+}
+#oneClickContainer .oneClickContent .fulfilmentContext {
+	background-position: -4px -157px;
+}
+.jsEnabled #oneClickContainer .optionHeading {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/oneClick_seperator.gif) repeat-x 0 23px;	
+	padding: 15px 0 10px 0; 
+}
+#oneClickContainer .optionHeading .info {
+	background: #fff;
+	float: left;
+	width: 210px;
+}
+#pdpPurchase,
+#oneClickActivate {
+	float: right;
+	text-align: right;
+	width: 140px;
+}
+.oneClickContent {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/fulfilment_sprite.gif) no-repeat 7px -256px;
+	clear: left;
+	min-height: 40px;
+	overflow: hidden;
+	padding-left: 60px;
+}
+.oneClickContent .activateText span {
+	font-style: italic;
+	font-weight: bold;
+}
+.oneClickContent .status img {
+	vertical-align: bottom;
+}
+.oneClickResults label {
+	padding-left: 5px;
+}
+.oneClickResults li {
+	padding-bottom: 10px;
+}
+.oneClickResults {
+	width: 260px;
+}
+.oneClickResults li input {
+	vertical-align: top;
+}
+.oneClickContent .oosStoresInfo {
+	font-weight: bold;
+	text-align: left;
+}
+.oneClickSignIn a,
+.setUpFavStores,
+.viewMap {
+	text-decoration: underline;
+}
+.oneClickSignIn,
+.oneClickSignIn a,
+.setUpFavStores {
+	font-weight: bold;
+}
+.stockGood img {
+	vertical-align: bottom;
+}
+.storeLink {
+	display: inline-block;
+	vertical-align: bottom;
+}
+#storeDetialsActivatee {
+	width: 290px;
+}
+#storeDetialsActivatee .section01 {
+	float: left;
+	width: 155px;
+}
+#storeDetialsActivatee .section02 {
+   float: left;
+   width: 111px;	
+}
+
+p.oneClickHelp a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Brief Product details and Credit
+ **********************************/
+#pdpBriefDetails {
+	clear: both;	
+	padding-top: 30px;
+}
+
+
+#main #pdpBriefDetails .content {
+	margin-top: 20px;
+	width: auto;
+}
+
+
+#pdpBriefDetails .summaryTitle {
+	font-size:12px;
+	padding-top: 5px;
+	width: 250px;
+	display:none;
+}
+
+.pdp #pdpBriefDetails ul {
+	list-style-position: outside;
+	list-style-type: disc;
+	padding:0 0 0 15px;
+}
+.pdpCreditAction a {
+	float: right;
+	margin: 0px;
+	overflow: show;
+	padding: 5px;
+	position: relative;
+	width: 118px;
+}
+.pdpCreditAction a span {
+	background: transparent url(/wcsstore/argos/en_GB/siteAssets/images/credit_offer_card_icon.png) center right no-repeat;
+	display:block;
+	height: 57px;
+	left: 0px;
+	line-height: 56px;
+	position: absolute;
+	text-indent: 10px;
+	top: -14px;
+	width: 130px;
+}
+/* not required
+.creditAnchor {
+	text-decoration: underline;
+}*/
+
+/* PDP Supplements - Alternative, Essential, Special offer etc
+******************************************************************/
+.addtocart span {
+	background: transparent url(/wcsstore/argos/en_GB/siteAssets/images/pdp_sprite.gif) no-repeat 0 0;
+	display:block;
+	height:15px;
+	text-indent: -9999px;
+	width:20px;
+}
+
+.hideRelatedItems { display: none; }
+
+
+
+.pdpRelatedInformation .content .pdpRelatedInformation  { 
+	border: none;
+	float: left;
+	padding: 0px 0px;
+}
+
+.withEssentialExtras #pdpEssentialExtras,
+.withEssentialExtras #pdpAdditionalItems .content,
+.withEssentialExtras #pdpEssentialExtras .content,
+.withEssentialExtras .pdpRelatedInformation .carousel { 
+	width: 475px 
+}
+
+.withEssentialExtras #pdpAdditionalItems  { 
+	float: right; 
+	width: 475px; 
+}  
+
+
+#main .pdpRelatedInformation .addtocart,
+#trolleySupplements .addtocart {
+	display: inline-block;
+	padding:5px 4px 5px;
+}
+
+
+#main .pdpRelatedInformation .btnbuyreserve, 
+#trolleySupplements .btnbuyreserve {
+	background-image: linear-gradient(#ffffff, #eeeeee);
+}
+
+/* Colour Picker - needs refactoring
+ **************************************/
+#pdpColourPicker {
+	clear: left;
+	margin-left: -20px;
+	position: relative;
+	width: 390px;
+}
+#pdpColourPicker a.pickerItem {
+	color: #000;
+	display: block;
+	float: left;
+	height: 38px;
+	margin-right: 5px;
+	padding: 0;
+	text-align: center;
+	width: 38px;
+	text-indent: 0;
+	background: none;
+}
+#pdpColourPicker a.pickerItem img {
+	border: 2px solid #e6e6e6;
+	margin-top: 2px;
+}
+#pdpColourPicker .carousel {
+	background: none;
+}
+#pdpColourPicker.carouselActive .content {
+  height: 58px;
+  margin: 0 0 20px;
+  width: 100%;
+}
+#pdpColourPicker .carousel .selected {
+	box-shadow: -2px 2px 5px #222;
+}
+#pdpColourPicker .carousel .back,
+#pdpColourPicker .carousel .forward {
+	height: 29px;
+	top: -2px;
+	width: 19px;
+}
+#pdpColourPicker .carousel .back,
+#pdpColourPicker .carousel .forward {
+	display: block; /* needs to go */
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/main_sprite.gif") no-repeat scroll 0 0 transparent;
+	border: none;
+}
+#pdpColourPicker .carousel .back {  
+    background-position: -15px -176px;
+}
+#pdpColourPicker .carousel .forward {
+    background-position: 5px -176px;
+}
+#pdpColourPicker .carousel .back span,
+#pdpColourPicker .carousel .forward span {
+	display: none;
+}
+#pdpColourPicker .content {
+	margin: 0 20px 8px 20px;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+}
+#pdpColourPicker .controller div.arrowNext,
+#pdpColourPicker .controller div.arrowBack {
+	background: #fff;
+	height: 38px;
+	position: absolute;	
+	top:0;
+}
+#pdpColourPicker .controller div.arrowNext {
+	right:0;
+	width:26px;
+}
+#pdpColourPicker .controller div.arrowBack {
+	left:0;
+	width:20px;
+}
+#pdpColourPicker h2 {
+	color: #333;
+	font-size: 12px;
+	padding: 0.5em 2em;
+}
+
+#pdpColourPicker a.pickerItem:hover,
+#pdpColourPicker a.currentlySelected, #pdpColourPicker div.currentlySelected {
+	background: url(/wcsstore/argos/en_GB/siteAssets/images/colour_swatch_border.gif) no-repeat 0 0 transparent;
+}
+#pdpColourPicker a.pickerItem img:-moz-broken,
+#pdpColourPicker a.pickerItem img:-moz-user-disabled {
+     -moz-force-broken-image-icon: 1; /* look at extracting this */
+}
+#pdpColourPicker a.pickerItem .partnum, #pdpColourPicker div.pickerItem .partnum {
+	display: none;
+}
+#colourPickerActivatee  { 
+	margin-top: 100px;
+	padding: 5px;
+	width: 140px;
+}
+#colourPickerActivatee .bubble {
+	text-align: center;
+}
+#colourPickerActivatee img {
+	background: #fff;	
+	display:block;
+	margin: 0 auto;
+	width: 110px;
+}
+#colourPickerActivatee p {
+	font-size: 12px;
+	margin: 0;
+	padding: 5px;
+}
+#colourPickerActivatee .instruction {
+	display: block;
+}
+
+#colourPickerActivatee {
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+
+
+/* Fabric Picker - needs refactoring
+ **************************************/
+#pdpFabricPicker a.pickerItem span.partnum{
+	display:block;
+}
+#pdpFabricPicker .content {
+	overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+#pdpFabricPicker a.currentlySelected, 
+#pdpFabricPicker div.currentlySelected {
+	background: url(/wcsstore/argos/en_GB/images/productpickers/images/fabric_swatch_shadow_webex.gif) no-repeat 4px 4px transparent;
+}
+#pdpFabricPicker a.pickerItem {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+#pdpFabricPicker a.pickerItem span, 
+#pdpFabricPicker div.pickerItem span {
+	display: block;
+}
+#pdpFabricPicker .fabricBandIntro {
+	margin-bottom:0px;
+}
+#pdpFabricPicker .fabricBandIntro h3 {
+	font-weight: bold;
+	font-size: 16px;
+}
+#pdpFabricPicker .fabricBandIntro p {
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+#pdpFabricPicker ul,
+#pdpFabricPicker .fabricBandList {
+	margin: 0;
+	padding: 0;
+}
+#pdpFabricPicker .fabricBandList {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+#pdpFabricPicker li.fabricBandListItem {
+	border-top: solid 1px #d8d8d8;
+	clear: both;
+}
+#pdpFabricPicker li.firstFabricBandListItem {
+	border-top: none 0 #fff;
+}
+#pdpFabricPicker .fabricList li {
+	float: left;
+	color: #333;
+	width: 130px;
+	margin: 10px 25px 0px 0;
+	padding-bottom: 20px;
+}
+#pdpFabricPicker .fabricList img {
+	border: 2px solid #BFBFBF;
+	display: block;
+	height: 106px;
+	margin-bottom: 10px;
+	width: 106px;
+}
+#pdpFabricPicker .price {
+	font-size: 20px;
+	font-weight: bold;
+}
+#pdpFabricPickerBubble p span {
+	display: block;
+}
+
+/* shared picker styles
+ ****************************/
+.pdpPicker a.pickerItem:focus,
+.pdpPicker a.pickerItem:hover {
+	background-color: transparent;
+}
+.pdpPickerEnhanced a.currentlySelected {
+	cursor: default;
+}
+.pdpPicker .bubble {
+	display: none;
+}
+.pdpProductPickerBubble { 
+	background: #fff;
+	border: #dedede solid 1px;
+	position: absolute;
+	width: 140px;
+	z-index: auto;
+}
+.pdpProductPickerBubble a:link,.pdpProductPickerBubble a:hover{
+	background:none;
+	text-decoration:none;
+}
+.pdpProductPickerBubble .instruction {
+	display: block;
+}
+.pdpProductPickerBubble img {
+	background: #fff;
+	display:block;
+	padding: 0 0 0 15px;
+	width: 110px;
+}
+.pdpProductPickerBubble p {
+	background-color: #333; 
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+}
+
+/* Size Picker
+*****************/
+#pdpSizePicker {
+	clear: left;
+	overflow: hidden;
+}
+#sizeSelect {
+	margin-right: 15px;
+}
+
+/* Product Reviews - BV content
+ *******************************/
+#pdpProductReviews #BVFrame {
+	height: 500px;	
+	width: 99%;
+}
+
+#pdpProductReviews #iframeskip {
+	height: 1px;
+    left: -999px;
+    position: absolute;
+    top: -999px;
+    visibility: hidden;
+    width: 1px;
+}
+
+#pdpProductReviews .BVRRPageLink a {
+	text-decoration: underline;
+}
+#pdpFullProductInformation .proddetailsaccesspoint {
+    border: medium none;
+    display: none;
+    float: right;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+div.askandanswer {
+	float: right;
+	display: none;
+	margin-bottom: 15px;
+}
+
+/* Global style overrides for PDP
+ ***********************************/
+#main  .pdpRelatedInformation .carouselDummy:hover {
+	box-shadow: none;
+}
+#main  .pdpRelatedInformation .product,
+.pdp #trolleySupplements .product {
+	width: 129px;
+}
+
+#main .pdpRelatedInformation .product .image {
+	left: 20px;
+}
+#main  .pdpRelatedInformation .product ul {
+	padding: 0;
+}
+#targetProducts {
+	padding: 0;
+}
+
+/* PDP Carousels
+ ******************/
+
+/* Temp: This may be changed and added to global css */
+
+.pdpRelatedInformation .carousel {
+	background: none;
+	padding-top: 3px;
+	left: -7px;
+	width: 940px;
+}
+
+
+.pdpRelatedInformation .productContent { padding: 3px 0px 0 3px;}
+
+.pdpRelatedInformation h2 {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	margin-right: 20px;
+}
+
+#pdpFullProductInformation h2 {
+	clear: both;
+	display: block;
+}
+
+.dpRelatedInformation .carousel .back, 
+.dpRelatedInformation .carousel .next {
+	display: none;
+}
+.pdpRelatedInformation .carousel .controller {
+	bottom: 0;	
+	position: absolute;
+	right: 0;
+}
+.pdpRelatedInformation .carousel button.forward {
+    background: url("/wcsstore/argos/en_GB/siteAssets/images/main_sprite.gif") no-repeat scroll -2px -2px transparent;
+    border: medium none;
+    height: 23px;
+    margin: 3px;
+    width: 27px;
+}
+.pdpRelatedInformation .product .QvpActivator {
+	line-height: inherit;	
+	margin-right: 5px;
+}
+.pdp .carousel .forward span {
+	display: none;
+}
+.pdp .carousel .paging {
+	padding-right: 33px;
+}
+
+
+/* PDP Credit Offers
+ ***********************/
+#pdpCreditOffers .apr {
+	font-size: 20px;
+	font-weight: bold;
+}
+#pdpCreditOffers .dealBody {
+	background: #fff;
+	padding: 20px 10px 10px;
+}
+#pdpCreditOffers .dealBody p {
+	width: 300px;
+}
+
+
+
+#pdpCreditOffers .dealBody dl.message {
+	display: block;
+}
+#pdpCreditOffers .header {
+	padding: 10px 10px 5px 10px;
+	background: #09B2D1;
+	position: relative;
+}
+#pdpCreditOffers .header img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#pdpCreditOffers .header p {
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 5px;
+}
+#pdpCreditOffers .pdpCreditOffer {
+	width: 460px;
+	background: #ECEBEC;
+	padding: 10px;
+}
+#pdpCreditOffers .price {
+	font-size: 18px;
+}
+
+
+
+/* PDP Special offers / promos
+ *******************************/
+.pdp .promotion .product_selector {
+	border: #ccc solid 1px;
+	height: 110px;
+	padding: 0px;
+	position: relative;
+	width: 110px; 
+}
+
+#pdpPromotions h2 {
+	color: #E42119;
+}
+
+#pdpPromotions .promotion .offerPrice .from,
+.promotion .offerPrice .save {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: -8px;
+	position: relative;
+	top: 5px;
+}
+#pdpPromotions .promotion {
+	padding-bottom: 15px;
+}
+
+#pdpPromotions .SPOPromotion .end {
+	margin-top: 0;
+}
+
+#pdpPromotions .SPOPromotion a,
+#pdpPromotions .SPOPromotion input {
+	margin-left: 0;
+}
+
+#pdpPromotions .offerunavailable {
+    display: block;
+    margin-left: 40px;
+}
+
+.collectionContainer .submit {
+  position: relative;
+}
+
+#voucherDisplay {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+#voucherDisplay .announcement {
+	color: #E42119;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#voucherDisplay .instruction {
+	display: block;
+}
+#voucherDisplay .voucher {
+	padding: 5px 0;
+}
+
+/* Buying guides
+ *****************/
+#pdpFullProductInformation .buyersGuideContentBlock {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	float: right;
+	margin-bottom: 15px;
+	padding: 10px 0 5px;
+	width: 250px;
+}
+
+#pdpFullProductInformation .buyersguideSingle,
+#pdpFullProductInformation .bvQASingle {	
+	float: left;
+	margin: 0 5px 20px 0;
+	min-height: 220px;
+	width: 240px;
+}
+
+#pdpFullProductInformation .bvQASingle #BVQASummaryContainer { 
+	min-height: auto;
+	width: 220px; 
+}
+
+#pdpFullProductInformation .buyersguideSingle .bauSingle { 
+	margin: 0px;
+	min-height: auto; 
+}
+
+
+#pdpFullProductInformation .buyersguideSingle .info {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/main_sprite.gif") no-repeat scroll 0 -100px transparent;
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	padding: 0px 0px 5px 40px;
+	
+}
+
+#pdpFullProductInformation .buyersguideSingle h3 {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/main_sprite.gif") no-repeat scroll 0 -100px transparent;
+	display: block;
+	float: left;
+	height: 28px;
+	margin-right: 10px;
+	width: 28px;
+}	
+
+#pdpFullProductInformation .buyersguideSingle .detail { margin-left: 40px; } 
+
+/* Add to trolley page for non JS 
+***********************************/
+#trolleyHeader { padding-top: 50px; }
+
+.trolleyContents {
+	border-top: 1px solid #e5e5e5;;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.trolleyContents .catnumber {
+	display: block;
+}
+.trolleyContents .symbol {
+    color: #EC2E2C;
+    font-size: 32px;
+    font-weight: bold;
+    height: auto;
+    padding-left: 40px;
+}
+.trolleyContents th {
+	visibility: hidden;
+}
+.trolleyContents .thumbnail {
+	width: 105px;
+	vertical-align: top;
+}
+.trolleyContents .thumbnail img {
+	height: 80px;
+	width: 80px;
+}
+.trolleyContents .trolleyProduct {
+	width: 370px;
+}
+.trolleyContents .qty {
+	width: 280px;
+}
+.trolleyContents .trolleyProduct,
+.trolleyContents .qty {
+	padding-top: 20px;
+	vertical-align: top;
+}
+.trolleyContents #addToTrolley {
+	float: left;
+	background-image: linear-gradient(to right, #ffffff 0%,#ffffff 97%,#efefef 100%);
+}
+.trolleyContents td {
+	height: 100px;
+}
+.trolleyContents .symbol {
+    color: #EC2E2C;
+    font-size: 32px;
+    font-weight: bold;
+    height: auto;
+    padding-left: 30px;
+}
+.trolleyContents .trolleyActions {
+	float: left;
+	padding-top: 36px;
+	text-align: center;
+	width: 233px;
+}
+h2.resultTitle {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/trolley_sprite.gif") no-repeat scroll top left transparent;
+	color: #000;
+	line-height: 2em;
+	margin-bottom: 10px;
+	padding-left: 60px;
+}
+#trolleySupplements #pdpAdditionalItems {
+	border: none;
+	float: none;
+	padding-top: 0;
+	width: auto;
+}
+
+#trolleySupplements #pdpEssentialExtras, 
+#trolleySupplements #pdpCreditOffers {
+	border: none;
+	float: left;
+	padding-top: 0;
+	width: 475px;
+}
+
+#trolleySupplements #pdpEssentialExtras {margin-right: 40px;}
+#trolleySupplements #pdpEssentialExtras .content { width: 475px;}
+#trolleySupplements #pdpEssentialExtras .carousel {width: 475px } 
+
+#trolleySupplements #relatedInformation {
+	border: none;
+	float: left;
+	padding-top: 0;
+}
+#trolleySupplements #pdpCreditOffers .content,
+#trolleySupplements #relatedInformation .content {
+	margin: 0;
+	width: auto;
+}
+
+#trolleySupplements #pdpCreditOfferBanner {border: none;}
+#trolleySupplements #pdpCreditOffers .dealBody p { width: 430px; }
+#trolleySupplements #pdpCreditOffers .creditHelp {margin: 45px 0 15px 275px;}
+
+.postCodeCheck input {
+	color: #808080;
+  font-size: 1.184em;
+  line-height: 24px; 
+  margin: 8px 7px 0 0;
+  padding: 8px;
+  width: 180px;
+}
+
+.postCodeCheck .button {
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Start Fasttrack messaging */
+
+.fasttrackDeliveryInfo {
+	clear: both;
+	margin: 10px 7px 0 10px;
+	position: relative;
+}
+.fasttrackDeliveryInfo .fasttrackLogo img {
+  height: 18px;
+  left: 0;
+  margin: -9px 0 0;
+  position: absolute;
+  top: 50%;
+  width: 85px;
+}
+.fasttrackDeliveryInfo .fasttrackBody {
+  font-size: 0.9em;
+  margin: 12px 16px 12px 80px;
+  padding-left: 5px;
+  position: relative;
+}
+.fasttrackDeliveryInfo .fasttrackNB {
+	color: rgb(227, 34, 25);
+}
+body .announce.ftBg {
+	background: #FEE8EA;
+	
+}
+.fasttrackDeliveryInfo .fieldInformation,
+.fasttrackAvailable .fieldInformation,
+.ftInfoIcon {
+	background: url("../../siteAssets/images/main_sprite.gif") no-repeat -6px -160px rgba(0, 0, 0, 0);
+	display: block;
+	height: 5px;
+	margin-top: -10px;
+	padding: 7px;
+	position: absolute;
+	right: -19px;
+	text-indent: -1000px;
+	top: 50%;
+	width: 5px;
+}
+.fasttrackDeliveryInfo .fasttrackPopup {
+  background-color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+  display: none;
+  left: -40px;
+  margin-top: 20px;
+  padding: 12px;
+  position: absolute;
+  top: 50%;
+  width: 290px;
+  z-index: 1;
+}
+.fasttrackDeliveryInfo .fasttrackPopup .fasttrackPopupTab {
+	background: url("../../siteAssets/images/popup_triangle_top.png");
+	background-size: 23px 13px;
+	display: block;
+	height: 13px;
+	margin-left: -6px;
+	position: absolute;
+	right: 3px;
+	top: -13px;
+	width: 23px;
+}
+.fasttrackBody br {
+	float: left;
+}
+.fasttrackBody p {
+	text-align: left;
+}
+/* End Fasttrack messaging */
+
+.pdp .status,
+.pdp .storeStock {
+	margin: 20px 20px 8px;
+}
+
+/* Start 2970  */
+
+#stockChecker .faveOptions .nearestStores {
+  margin-bottom: 10px;
+  padding-left: 1px;
+}
+
+#stockChecker .faveOptions label {
+  display: block;
+  float: left;
+  padding: 0px;
+  margin-bottom: 10px;
+  width: 93%;
+}
+
+#stockChecker .faveOptions input[type="radio"] {
+  float: left;
+  margin-right: 1px;
+  position: relative;
+  top: 1px;
+}
+
+
+
+
+
+/* End 2970  */
+
+.pdp #stockAvailabilityText {
+	font-weight: bold;
+}
+
+.pdp .quantity_1 {
+  border-bottom: 1px solid #E0E0E0;
+  border-top: 1px solid #E0E0E0;
+  margin: 0 10px;
+  padding: 20px 0;
+}
+
+#postcodeErrorMsg {
+color: #F00;
+background: url(../../images/m/errorIcon.png) no-repeat;
+background-size: 20px 20px;
+margin-left: 0px;
+margin-top: 5px;
+}
+
+#postcodeErrorMsg p {
+font-weight: normal;
+padding: 3px 0px 0px;
+margin-left: 25px;
+}
+
+.distance {
+	float: right;
+	font-size: 1em;
+	margin-right: 20px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #stockChecker .faveOptions .signInButton {
+	
+	background: #07AAC9;
+    background-image: -moz-linear-gradient(center bottom , #09B0D0 27%, #07AAC9 64%, #06A4C1 82%);
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+}
+
+/*Adding for R1 SP5 Find Store Stock Check*/
+#stockChecker .stockMsg {
+	position: relative;
+	top: 5px;
+	right:10px;
+	float:right;
+}
+#stockChecker {
+	width: 350px;
+	padding-bottom: 20px;
+}
+#stockChecker hr {
+	width: 330px;
+}
+#stockChecker .stockMsg img {
+	padding-right: 5px;
+}
+#stockChecker .stockOptions label{
+	width: 67%;
+}
+#stockChecker .stockOptions hr { 
+	padding-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* start shutl styles */
+
+.shutl-espot {
+	margin: 14px 0 17px -1px;
+	padding: 22px 20px 4px;
+	float: right;
+}
+
+.shutl-espot .shutl-message {
+	font-size: 13px;
+	margin: 2px 0px 0px 102px;
+}
+
+.shutl-espot .shutl-logo-info {
+	float: left;
+	margin-bottom: 3px;
+	margin-right: 16px;
+	width: 86px;
+}
+
+.shutl-espot .shutl-logo-info img {
+	display: block;
+}
+
+.shutl-espot .more-info {
+	font-size: 11px;
+	margin-top: 0;
+}
+
+.shutl-espot,
+.shutl-espot a {
+	color: rgb(49, 49, 49);
+}
+
+.shutl-espot a {
+	text-decoration: underline;
+}
+
+.shutl-espot .shutl-info {
+	clear: both;
+	margin-bottom: 6px;
+}
+
+.shutl-espot .restrictions {
+	font-size: 10px;
+	margin-top: 0px;
+}
+
+.shutl-espot .fieldInformation {
+	background: url("../images/main_sprite.gif") no-repeat -6px -160px rgba(0, 0, 0, 0);
+	display: inline-block;
+	height: 5px;
+	overflow: hidden;
+	padding: 7px;
+	text-indent: -1000px;
+	vertical-align: top;
+	width: 5px;
+}
+/* Shutl popup */
+.shutlInfoIcon {
+	background: url("../../siteAssets/images/main_sprite.gif") no-repeat -6px -160px rgba(0, 0, 0, 0);
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+.shutlPopupWrapper {
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	background-color: #fff;
+	width: 260px;
+	font-size: 11px;
+	display: none;
+	position: absolute;
+	top:97%;
+	right: 2%;
+}
+
+#shutlSpacer1 {
+	height: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-left: -3px;
+    border-left: 5px solid white;
+    float: left;
+    width: 50%;
+    display: inline-block;"
+}
+
+#shutlSpacer2 {
+	height: 20px;      
+    border-top: 1px solid #ccc;  border-bottom: 1px solid #ccc;
+    margin-right: -3px;    
+    border-right: 5px solid white;
+    float: right;
+    width: 48.5%;  
+    display: inline-block;"
+}
+/* end shutl styles */

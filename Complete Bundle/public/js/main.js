@@ -19,10 +19,12 @@ function loadProduct(data){
         var xmlDoc = $.parseXML( data ),
             $xml = $( xmlDoc );
         var price = $xml.find("Price").text();
+        var pointPos = price.indexOf(".");
+        price = price.substring(0,pointPos+3);
         var imgurl = $xml.find('[usage="image"]').attr("href");
         var catnum = $xml.find("Product").attr("id");
         var name = $xml.find("ShortDescription").text();
-        $('.stream').append('<a href="index.html?product='+catnum+'"><div class="object '+catnum+'" style="display:none" >'+getLabel()+'<img src="'+imgurl+'"><h4>'+price+'</h4><span class="text-muted">'+name+'( '+catnum+' )</span></div></a>');
+        $('.stream').append('<a href="/admin?product=1062487"><div class="object '+catnum+'" style="display:none" >'+getLabel()+'<img src="'+imgurl+'"><h4>'+price+'</h4><span class="text-muted">'+name+'( '+catnum+' )</span></div></a>');
         $('div:hidden:first').fadeIn(1000);
     }
 }
@@ -78,16 +80,16 @@ function getURLParameters(paramName)
 
 function addProductListing(parameter){
     // PROD
-     $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/"+parameter+"/?apiKey=et6qxnqrjbmqzrkh4spajzqs&callback=addGraphForProduct");
+    // $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=et6qxnqrjbmqzrkh4spajzqs&callback=addGraphForProduct");
     // UAT1
-    // $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/9134290/?apiKey=4n5wt8jqfj6b87y5p3uaxdpa&callback=addGraphForProduct");
-    // $('.stream').append('<input type="text" id="newprice" name="priceDrop"><button type="button" onClick="dropPrice();">Adjust Price</button>');
+    $.getScript("http://stiandev.com/proxy.php?url=https://api.homeretailgroup.com/product/argos/1062487/?apiKey=4n5wt8jqfj6b87y5p3uaxdpa&callback=addGraphForProduct");
+    $('.stream').append('<input type="text" id="newprice" name="priceDrop"><button type="button" onClick="dropPrice();">Adjust Price</button>');
 }
 
 function dropPrice(){
 
-    var jqxhr = $.get( "/changePrice?productId="+global_catnum+"&price="+$("#newprice").val(), function() {
-        alert("Price Adjusted to "+$("#newprice").val()+". 350 customers will be notified.");
+    var jqxhr = $.get( "/changeprice?productId="+1062487+"&price="+$("#newprice").val(), function() {
+        alert("Price Adjusted to "+$("#newprice").val()+".");
     });
 
 
@@ -97,6 +99,7 @@ function addGraphForProduct(data){
     var xmlDoc = $.parseXML( data ),
         $xml = $( xmlDoc );
     var price = $xml.find("Price").text();
+    
     global_catnum = $xml.find("Product").attr("id");
     var name = $xml.find("ShortDescription").text();
 
@@ -193,5 +196,4 @@ function stream_waves(n, m) {
 function stream_index(d, i) {
     return {x: i, y: Math.max(0, d)};
 }
-
 

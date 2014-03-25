@@ -1,0 +1,1933 @@
+/*Modified /New CSS*/
+
+/*Description and Cost CSS*/
+ .fasttrackInfo {
+	vertical-align: middle;
+}
+
+#pgPaymentDetails .fasttrackInfo {
+  border-bottom: 1px solid #CCC;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+
+ .ftInfo {
+    bottom: 2px;
+    position: relative;
+}
+ #buyOrReserveForm {
+	margin-bottom: 10px;
+}
+
+.clearFix {
+	clear: both;
+}
+
+ .warningMessage {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #fde7e9;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+ .infoIcon {
+	width: 30px;
+	float: left;
+}
+
+ #infoDescription {
+	float: left;
+	width: 500px;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+ #infoDescription #infoDescribe {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+ #infoDescription p strong {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+ .trolleyStockAvailability table th.storeInfo {
+	width: 270px;
+}
+
+ .collectionImageClass {
+	position: relative;
+	float: left;
+	left: 25px;
+	top: -4px;
+}
+
+ .available {
+	background: url('../Trolley_files/delivered.png') no-repeat 12px 0;
+	clear: left;
+	min-height: 25px;
+	width: 222px;
+}
+
+ .unAvailable {
+	background: url('../Trolley_files/out_of_stock.png') no-repeat 12px 0;
+	clear: left;
+	min-height: 25px;
+	width: 222px;
+}
+
+.available span, .unAvailable span {
+  font-size: 12px;
+}
+
+ .trolleyStockAvailability .stock {
+	padding: 20px 10px 10px 10px;
+}
+
+ .availableTextClass {
+	color: #333;
+}
+
+ .subTitle {
+	font-weight: normal;
+}
+
+ .messageHeader {
+	position: relative;
+	left: 38px;
+}
+
+ .itemQuantityDescription {
+	border-bottom: 1px dotted gray;
+}
+
+ .changeStore {
+	text-align: right;
+}
+
+ div#stockAvailabilityDetailsForm {
+	overflow: visible; 
+}
+
+/*** New fast track style for Defect 3794  ***/
+div#stockAvailabilityDetailsForm div#fasttrackOptionMixed {
+    background: none repeat scroll 0 0 #F0F8FA;
+}
+
+ div#stockAvailabilityDetailsForm div#fasttrackOption {
+	background: #F0F8FA;
+}
+
+ #improvedInventory table.stores {
+	border-top: 1px solid gray;
+}
+
+ div#checkOtherStores .chooseStore #selectStore {
+	width: 860px;
+	margin-right: 106px;
+}
+
+ div#checkOtherStores div.stores div.chooseStore  table.stores thead tr th.store, div.chooseStore table.stores tbody tr td.store {
+	width: 20px;
+}
+
+ div.chooseStore table.stores thead tr th {
+	padding-left: 12px;
+}
+
+#storeHeader {
+	border: none;
+}
+
+ .storeContainer {
+	border: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #09B2D1;
+}
+
+ #nearByStores {
+	border: none;
+}
+
+ .stockLister {
+	color: #FE6A35;
+}
+
+ .storeLister {
+	border-bottom: 1px solid #09B2D1;
+}
+
+ div.checkAnotherArea {
+	padding-left: 426px;
+}
+
+  div#stockAvailabilityDetailsForm div.marginBottom {
+	margin-bottom: 2px;
+}
+
+ #stockAvailabilityDetailsForm div.payPartial {
+	padding-top: 8px;
+	padding-left: 10px;
+	height: 32px;
+	overflow: visible;
+}
+
+ #stockAvailabilityDetailsForm div.payPartial .fasttrackPopup {
+	background-color: #FFF;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+	display: none;
+	left: -40px;
+	margin-top: 20px;
+	padding: 12px;
+	position: absolute;
+	top: 50%;
+	width: 290px;
+	z-index: 1;
+}
+#stockAvailabilityDetailsForm div.payPartial .fasttrackPopup .fasttrackPopupTab {
+	background: url("../../siteAssets/images/popup_triangle_top.png");
+	background-size: 23px 13px;
+	display: block;
+	height: 13px;
+	margin-left: -6px;
+	position: absolute;
+	right: 3px;
+	top: -13px;
+	width: 23px;
+}
+body#trolleylist .fasttrackDeliveryInfo .fasttrackPopup,
+body#stockAvailability .fasttrackDeliveryInfo .fasttrackPopup,
+body#stockAvailability .fasttrackDeliveryInfo .fasttrackDetailsPopup {
+	left: 100px;
+	padding: 12px;
+	width: 350px;
+}
+body#stockAvailability #fasttrackOptionOptional .fasttrackDetailsPopup {
+	left: 400px;
+}
+body#stockAvailability #fasttrackDeliveryInfo div.fasttrackPopup {
+	left: 300px;
+}
+ #stockAvailabilityDetailsForm div.payPartial .fasttrackPopup p {
+	margin: 1em 0;
+}
+
+#stockAvailability .fasttrackInfo {
+ 	padding: 0 3px 0 6px;
+    position: relative;
+    top: 3px;
+    vertical-align: 0;
+}
+
+ #stockAvailabilityDetailsForm div.fasttrackOptionHidden {
+	display: none;
+}
+
+#stockAvailabilityDetailsForm div.fasttrackOptionVisible {
+	display: block;
+}
+
+
+
+ div#stockAvailabilityDetailsForm div.payPartial .payPartialImage {
+	top: 8px;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+
+
+ div#stockAvailabilityDetailsForm div.payPartial span {
+	position: relative;
+	font-size: 1.2em;
+}
+
+/*End Description and Cost CSS*/
+/*ForPopUp*/
+ .reservationPayment #popUpContent {
+	padding-top: 0px;
+	padding-left: 11px;
+}
+
+ .CheckStockActivatee #popUpheader {
+	padding: 15px;
+	min-height: 0;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
+}
+
+ .CheckStockActivatee .header .headerTitle {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ div#lightBoxStockAvailability .resultsTable table tr td span#availableOnly {
+	font-size: 12px;
+	margin-left: 0px;
+}
+
+button.close {
+	top: 8px;
+}
+
+ div#lightBoxStockAvailability .resultsTable .paymentHeadInfo {
+	width: 106px;
+	border: none;
+	background-color: transparent;
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+
+ div#lightBoxStockAvailability .resultsTable .paymentHeadInfo .title {
+	padding: 0;
+}
+
+ div#lightBoxStockAvailability .resultsTable .productName {
+	width: 400px;
+}
+
+ div#lightBoxStockAvailability div.resultsTable table tbody tr.last td {
+	background: transparent;
+}
+
+ #lightBoxStockAvailability div.resultsTable table tbody td.productName {
+	padding-top: 13px;
+}
+
+#lightBoxStockAvailability div.resultsTable table tbody td.productName span strong {
+	font-size: 11px;
+}
+
+.payForAllItemsNow {
+	right: 10px;
+	top: 10px;
+}
+
+ div#lightBoxStockAvailability.reservationPayment {
+	width: 636px;
+}
+
+ #lightBoxStockAvailability div.resultsTable table tbody tr.last td.productName {
+
+	border-bottom: none;
+}
+
+ #lightBoxStockAvailability div.resultsTable table tbody tr.last td.longTextPadding {
+	padding-top: 6px;
+}
+
+ .reservationPaymentSaveChange {
+	position: relative;
+	top: 6px;
+	padding-top: 8px;
+}
+
+ div#lightBoxStockAvailability div#popUpContent table tr td.paymentChecker {
+	border-left: 1px solid #EDEDED;
+}
+
+ div#lightBoxStockAvailability div#popUpContent .paymentHeader {
+	border-top: 1px solid #EDEDED;
+}
+
+ .paymentInfo {
+	border-top: none;
+}
+
+.resultsTable table {
+	margin-top: 4px;
+}
+
+ .resultsTable > table > tbody > tr.disabledRow {
+	background: #EBEBEB;
+}
+
+.resultsTable > table > tbody > tr:nth-child(odd) {
+	background: #FBFBFB;
+}
+
+.resultsTable > table > tbody > tr:nth-child(even) {
+	background: #FFF;
+}
+
+/*Continue Button*/
+
+.continueSelectionButton,
+.reservationPayment .payNowBtnCCA {
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#0ab1d1), to(#06a4c1));
+	 background-image: -webkit-linear-gradient(#0ab1d1, #06a4c1);
+	 background-image: -moz-linear-gradient(top, #0ab1d1, #06a4c1);
+	 background-image: -ms-linear-gradient(#0ab1d1, #06a4c1);
+	 background-image: -o-linear-gradient(#0ab1d1, #06a4c1);*/
+	color: white;
+	float: right;
+	background: #0ab1d1; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhYjFkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNmE0YzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #0ab1d1 0%, #06a4c1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0ab1d1), color-stop(100%,#06a4c1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0ab1d1 0%,#06a4c1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0ab1d1 0%,#06a4c1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0ab1d1 0%,#06a4c1 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #0ab1d1 0%,#06a4c1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ab1d1', endColorstr='#06a4c1',GradientType=0 ); /* IE6-8 */
+}
+
+.reservationPayment .continueSelectionButton,
+.reservationPayment .payNowBtnCCA {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    margin: 10px 0 10px 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+    position: static;
+}
+
+/*Step Indicator*/
+
+.reservationflow #visualStepIndicator ul li.step4 {
+	width: 65px;
+	margin-right: 8px;
+	color: #999;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.reservationflow #visualStepIndicator ul li.step4 span:last-child {
+	color: #4AC0DB;
+	font-size: 12px;
+}
+
+/* Pop up */
+ #overlayOpacity {
+	z-index: 1;
+}
+
+/*RC 39.2 Prepay Checkout*/
+
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails {
+    border: 2px solid #A3C316;
+    padding: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div.provideDeatils {
+    border-top: 2px solid #CCCCCC;
+    padding: 10px 0;
+    position: relative;
+    top: 8px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div span:first-child {
+    color: #000000;
+    font-weight: bold;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails span {
+    color: #696969;
+    font-size: 1.2em;
+}
+
+#content .prePayContactDetails .paymentDetails {
+    border: 2px solid #A3C316;
+    padding: 10px;
+}
+
+#content .prePayContactDetails .paymentDetails div.provideDeatils {
+    border-top: 2px solid #CCCCCC;
+    padding: 10px 0;
+    position: relative;
+    top: 8px;
+}
+
+#content .prePayContactDetails .paymentDetails div span:first-child {
+    color: #000000;
+    font-weight: bold;
+}
+
+#content .prePayContactDetails .paymentDetails span {
+    color: #696969;
+    font-size: 1.2em;
+}
+
+/* Start of modified CSS */
+
+
+#telephoneDetails
+{
+	padding-left:10px;
+}
+/* UL Navigation tabs */
+
+body.contactDetailsUnknownPrePayFull div#visualStepIndicator ul li.step1 span.notSelectable span{
+	background-position: 0 -43px;
+}
+
+
+body.contactDetailsUnknownPrePayFull div#visualStepIndicator ul li.step2 span.notSelectable span{
+	background-position: -94px -43px;
+}
+
+body.contactDetailsUnknownPrePayFull div#visualStepIndicator ul {
+	width: 430px;
+}
+
+
+body.contactDetailsUnknownPrePayFull div#visualStepIndicator ul li.step2 span.notSelectable span{
+	width: 104px;
+}
+
+.contactDetailsUnknownPrePayFull #visualStepIndicator ul li.step4{
+	width: 86px;
+	margin-right: 8px;
+	color: #999;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.contactDetailsUnknownPrePayFull #visualStepIndicator ul li.step4 span:last-child{
+	color: #4AC0DB;
+	font-size: 12px;	
+}
+
+.contactDetailsUnknownPrePayFull #visualStepIndicator ul{
+	width: 382px;
+}/*
+
+body.contactDetailsUnknownPrePayFull div#visualStepIndicator ul li.step3 span.notSelectable span{
+	background-position: -213px -45px;
+	height: 40px;
+}*/
+
+/* End Navigation tabs */
+
+/* Reservation Number details */
+
+.contactDetailsUnknownPrePayFull #errorSummaryZone{
+	display: none;
+}
+
+.contactDetailsUnknownPrePayFull #content .prePayContactDetails {
+	margin-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePayFull #content .prePayContactDetails .paymentDetails {
+	border: 2px solid #A3C316;
+	padding: 10px;
+}
+
+.contactDetailsUnknownPrePayFull #content .prePayContactDetails .paymentDetails span {
+	font-size: 1.2em;
+	color: #696969;
+}
+
+.contactDetailsUnknownPrePayFull #content .prePayContactDetails .paymentDetails div.provideDeatils {
+	border-top: 2px solid #CCC;
+	position: relative;
+	top: 8px;
+	padding: 10px 0px;
+}
+
+.contactDetailsUnknownPrePayFull #content .prePayContactDetails .paymentDetails div span:first-child {
+	font-weight: bold;
+	color: #000;
+}
+
+/* End Reservation Number details */
+
+/* Delivery Details */
+
+#yourDetailsGuestUser div.deliveryDetails div.telephoneDetails {
+	border-top: 2px dotted #CCC;
+}
+
+.contactDetailsUnknownPrePayFull #content #yourDetailsGuestUser div.telephoneDetails div.field p strong{
+	padding: 0 10px 0 0;
+}
+
+.contactDetailsUnknownPrePayFull #yourDetailsGuestUser div.deliveryDetails{
+	margin: 0;
+}
+
+/* End Delivery Details  */
+
+
+.contactDetailsUnknownPrePayFull  #yourDetailsGuestUser div.primaryActions{
+	padding: 12px 0;
+}
+
+
+/* footer */
+.contactDetailsUnknownPrePayFull div#content #deliveryandpickup div.storepickupinfo{
+	float: left;
+}
+
+.contactDetailsUnknownPrePayFull div#content #deliveryandpickup div{
+	float: right;
+}
+/* End footer*/
+
+
+/* Start CSS for Contact Details for Pre-pay */	
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails{
+	border: 2px solid #A3C316;
+	padding: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div span:first-child{
+	font-weight: bold;
+	color: #000;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails span{
+	font-size: 1.2em;
+	color: #696969;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div.provideDeatils{
+	border-top: 2px solid #CCC;
+	position: relative;
+	top: 8px;
+	padding: 10px 0px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails{
+	padding: 10px 0;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsHeader{
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsHeader span:first-child{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #09b2d1;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails span{
+	font-size: 1.2em;
+}	
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo{
+	background: #E3F1F4;
+	padding: 10px;
+	font-size: 1.1em;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo .billingDetailsText{
+	font-weight:bold;
+	padding-right: 30px;
+}
+
+#billingDetailsNo{
+	margin-left: 15px;
+	position: relative;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails input.image{
+	border: none;
+	float: right;
+	padding-top: 25px;
+	position: relative;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo .editDetails{
+	background: none;
+	text-decoration: none;
+}
+
+#yourDetailsGuestUser {
+	margin: 0px 15px 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #09B2D1;
+}
+
+.contactDetailsUnknownPrePay #content #yourDetailsGuestUser .registrationDetails{
+	margin-bottom: 20px;
+}
+
+#yourDetailsGuestUser h2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin: 0px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.fields,
+#yourDetailsGuestUser div.fields {
+	background-color: #E3F1F4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup {
+	background: #F0F8F9;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 10px 0px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.field {
+	background: transparent;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.field div.indicator {
+	width: 190px;
+}
+
+#yourDetailsGuestUser input[type="password"], #yourDetailsGuestUser input[type="text"] {
+	border: #ccc solid 1px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions {
+	overflow: hidden;
+	padding-left: 200px;
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails {
+	margin-bottom: 10px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions input.findAddress {
+	float: left;
+	margin-right: 36px;
+	display: inline;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions span.or {
+	text-transform: uppercase;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right: 33px;
+	display: inline;
+	margin-top: 4px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions input.typeAddress {
+	margin-top: -4px;
+	float: left;
+}
+
+#yourDetailsGuestUser .sameAsDelivery .postCodeLookup, 
+#yourDetailsGuestUser .sameAsDelivery .manualAddress, 
+#yourDetailsGuestUser .sameAsDelivery .telephoneDetails,
+#benefitscodewrap , 
+#remembermecodewrap {
+	display: none;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.indicator {
+	width: 260px;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.indicator span.label {
+	float: left;
+	font-weight: bold;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.radios {
+	width: 550px;
+}
+
+#yourDetailsGuestUser div.field div.radios div.input {
+	padding-top: 0;
+}
+
+#yourDetailsGuestUser div.registrationDetails div.fields div.section02 span.rememberMeMessage {
+	display: block;
+	font-size: 1.1em;
+}
+
+#yourDetailsGuestUser .registrationDetails .input label {
+	float: none;
+}
+
+#yourDetailsGuestUser .contactDetails #email1, 
+#yourDetailsGuestUser .contactDetails #logonId, 
+#yourDetailsGuestUser .registrationDetails #logonPassword, 
+#yourDetailsGuestUser .registrationDetails #logonPasswordVerify {
+	width: 203px;
+}
+
+#yourDetailsGuestUser .emailDetails .fieldContextualDetails {
+	width: 250px;
+}
+
+#yourDetailsGuestUser .singleInput p {
+	font-size: 11px;
+	margin: 0;
+	text-align: right;
+}
+
+#yourDetailsGuestUser div.primaryActions input.image {
+	float: right;
+}
+
+#yourDetailsGuestUser div.primaryActions {
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay div#content div#deliveryandpickup{
+	border: none;
+	margin-top: 0;
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul li.step4{
+	width: 86px;
+	margin-right: 8px;
+	color: #999;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul li.step4 span:last-child{
+	color: #4AC0DB;
+	font-size: 12px;	
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul{
+	width: 382px;
+}
+
+/* RC 39 Prepay Checkout - Confirmation and payment*/
+/* Start modified CSS */
+
+/* Navigation Tab */
+
+
+.orderSummaryBillingAddressPayment #visualStepIndicator ul li.step4{
+	width: 86px;
+	margin-right: 8px;
+	color: #999;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	font-size: 13px;
+	background: #FFF;
+	border: 1px solid #00B3D4;
+	border-bottom: none;
+}
+
+.orderSummaryBillingAddressPayment #visualStepIndicator ul li.step4 span:last-child{
+	color: #4AC0DB;
+	font-size: 12px;	
+}
+
+.orderSummaryBillingAddressPayment #visualStepIndicator ul{
+	width: 382px;
+}
+
+
+/* End Navigation Tab CSS*/
+
+/* Order Summary */
+
+.orderSummaryBillingAddressPayment #ordersummary{
+	padding: 10px;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore{
+	position: relative;
+	width: 590px;
+	display: inline-block;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore h2{
+	color: #000;
+	font-weight: normal;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsList,
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsListPrize{
+	position: relative;
+	padding: 5px 0;
+	height: 25px;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsListPrize .productName{
+	visibility: hidden;
+	width: 385px;
+	position: relative;
+	float: left;
+	font-size: 1.2em;
+	color: #000;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemListEndBorder{
+	border-bottom : 1px dotted #ccc;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsList .productName{
+	width: 425px;
+	position: relative;
+	float: left;
+	font-size: 1.2em;
+	color: #000;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsListPrize .productQuantity{
+	position: relative;
+	width: 100px;
+	text-align: center;
+	float: left;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsList .productQuantity{
+	position: relative;
+	width: 30px;
+	text-align: center;
+	float: left;
+	font-size: 1.2em;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsListPrize .productPrize{
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .paymentInStore .itemsList .productPrize{
+	position: relative;
+	float: left;
+	text-align: right;
+	width: 100px;
+	font-size: 1.2em;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails{
+	position: absolute;
+	width: 310px;
+	display: inline-block;
+	background: #F5F5F5;
+	right: 162px;
+	padding: 12px 0 0 18px;
+	min-height: 165px;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails span.reservationOrderNumber{
+	font-size: 1.2em;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectAt{
+	background: url('./collection.png') no-repeat left;
+	position: relative;
+	height: 45px;
+	top: 8px;
+	padding: 0 5px 0 40px;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectFrom{
+	background: url('./time.png') no-repeat 5px 5px;
+	position: relative;
+	height: 45px;
+	top: 8px;
+	padding: 0 5px 50px 40px;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectAt span.collectAtLabel{
+	font-weight: normal;
+	font-size:1.3em;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectFrom span.collectFromLabel{
+	font-weight: normal;
+	font-size:1.3em;	
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectAt span.collectAtPlace{
+	font-size: 1.3em;
+}
+
+.orderSummaryBillingAddressPayment #ordersummary .reservationOrderDetails .collectFrom span.collectFromPlace{
+	font-weight: normal;
+	font-size: 1.3em;
+}
+
+.orderSummaryBillingAddressPayment #carddetails .reservationNumberDetails{
+	width: 295px;
+	padding: 20px;
+	background: #F5F5F5;
+	position: relative;
+	height: 135px;
+	font-size: 1.2em;
+}
+
+.orderSummaryBillingAddressPayment #carddetails table{
+	float: right;
+}
+
+.orderSummaryBillingAddressPayment #carddetails .reservationNumberDetails tbody tr td{
+	padding: 10px;
+}
+
+.orderSummaryBillingAddressPayment #carddetails .reservationNumberDetails .details{
+	vertical-align: middle;
+	position: relative;
+	top: -18px;
+}
+
+.orderSummaryBillingAddressPayment #carddetails .reservationNumberDetails{
+	width: 328px;
+	padding: 20px;
+	background: #F0F8FA;
+	position: relative;
+	height: 135px;
+	font-size: 1.2em;
+}
+
+
+.orderSummaryBillingAddressPayment #carddetails .CollectAtTitle{
+	font-size: 1.1em;
+	padding-left: 40px;
+	position: relative;
+	top: 10px;	
+}
+
+.orderSummaryBillingAddressPayment #carddetails .collectAt strong{
+	padding-left: 4px;
+	font-size: 1.1em;
+}
+
+.collectFromDetails{
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+/* End Order Summary */
+
+/* Card Details */
+
+
+.orderSummaryBillingAddressPayment .fasttrackInfo div{
+	position: relative;
+	float: left;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .fasttrackPopup {
+  background-color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+  display: none;
+  left: 0;
+  margin-top: 20px;
+  padding: 12px;
+  position: absolute;
+  /*top: 50%;  -  Removing to position popup properly defect 1386*/
+  width: 290px;
+  z-index: 1;
+}
+
+/* Added to allow left tooltip on payment page to be positioned independantly */
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .fasttrackCollectionTitle .fasttrackPopup {
+  background-color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+  display: none;
+  left: 231px;
+  margin-top: 20px;
+  padding: 12px;
+  position: absolute;
+  /*top: 50%;  -  Removing to position popup properly defect 1386*/
+  width: 290px;
+  z-index: 1;
+}
+
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .fasttrackPopup .fasttrackPopupTab {
+	background: url("../../siteAssets/images/popup_triangle_top.png");
+	background-size: 23px 13px;
+	display: block;
+	height: 13px;
+	margin-left: -6px;
+	position: absolute;
+	right: 3px;
+	top: -13px;
+	width: 23px;
+}
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .fasttrackPopup p {
+	margin: 1em 0;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow span {
+  float: left;
+  font-size: 1.5em;
+  margin-left: 6px;
+  position: relative;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow img{
+	float: left;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow img.infoImage{
+	position: relative;
+	left: 5px;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsList,
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsListPrize{
+	border-bottom: 1px dotted #CCCCCC;
+    clear: both;
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsListPrize{
+	border: none;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsList .productName{
+	width: 425px;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsListPrize .productName{
+	width: 385px;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsList .productQuantity{
+	width: 30px;
+	text-align: center;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsListPrize .productQuantity{
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+}
+
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsList .productPrize{
+
+	width: 100px;
+	text-align: right;
+}
+.orderSummaryBillingAddressPayment .fasttrackInfo .payForNow .itemsListPrize .productPrize{
+	width: 100px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment #paymentdetails h2{
+	clear: both;
+}
+
+.orderSummaryBillingAddressPayment #paymentdetails #symbols{
+	margin-left: -15px;
+}
+
+
+/* Removed - breaking original layout
+.orderSummaryBillingAddressPayment .cardTypeWrapper .indicator label{
+	float: right;
+	right: 15px;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment .cardHolderWrapper .indicator label{
+	float: right;
+	right: 15px;
+}
+*/
+
+.orderSummaryBillingAddressPayment .cardHolderWrapper{
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.orderSummaryBillingAddressPayment .cardTypeWrapper .indicator img{
+	vertical-align: middle;
+	position: relative;
+	top: -8px;
+	left: 8px;
+}
+
+.orderSummaryBillingAddressPayment .cardTypeWrapper .indicator input{
+	position: relative;
+	top: -3px;
+}
+
+.orderSummaryBillingAddressPayment #inputCardDetails div.field {
+	background: #E3F1F4;
+}
+
+
+.orderSummaryBillingAddressPayment .payPalWrapper{
+	padding-top: 10px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.orderSummaryBillingAddressPayment div.payPalWrapper input{
+	position: relative;
+	top: -2px;
+}
+
+.orderSummaryBillingAddressPayment div.payPalWrapper img{
+	position: relative;
+	vertical-align: middle;
+	left: 10px;
+	top: -5px;
+}
+
+.orderSummaryBillingAddressPayment div#carddetails div.payPalWrapper label{
+	float: right;
+	right: 84px;
+	font-weight: bold;
+}
+
+.orderSummaryBillingAddressPayment #inputCardDetails{
+	margin-top: 10px;
+}
+/* End Card Details */
+
+
+
+/* footer */
+
+body.orderSummaryBillingAddressPayment .trolley #content #deliveryandpickup div.storepickupinfo{
+	float: left;
+}
+
+.orderSummaryBillingAddressPayment #content #deliveryandpickup div {
+	padding: 7px 0px 30px 0px;
+
+}
+
+
+body.orderSummaryBillingAddressPayment #content  div#customerHelpinfrmation{
+	border-left : 1px solid #D4D4D4;
+	padding-left: 30px;
+}
+body.orderSummaryBillingAddressPayment div#visualStepIndicator ul {
+	width: 430px;
+}
+
+body.orderSummaryBillingAddressPayment #outerwrap div#visualStepIndicator ul.step3 li.step3 span.notSelectable span{
+	width: 107px;
+	background-position: -213px 0px;
+}
+
+/* End footer */
+
+/* End modified CSS */
+
+/* Start css for final confirmation */
+.trolleyProductConfirmation UL.storeslist LI.vcard DL#openingTiming
+{
+	width:137px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+
+/* css for hide lightox and overlay */
+
+/*
+JT Accenture 19/9/13 removed due to defect 2505
+.finalConfirmation #lightBox{
+	display: none;
+}
+
+.finalConfirmation #overlay{
+	display: none !important;
+}
+*/
+
+/* End css for hide lightox and overlay */
+
+/* css for site header 
+
+This section has been commented with reference to defect Id 4871
+
+
+*/
+
+/* End css for site header */
+
+.finalConfirmation #search,
+.finalConfirmation #menu,
+.finalConfirmation #siteheader .userInformation{
+	display: none;
+}
+
+#orderConfirmation.finalConfirmation #search,
+#orderConfirmation.finalConfirmation #menu,
+#orderConfirmation.finalConfirmation #siteheader .userInformation{
+	display: none;
+}
+
+
+
+/* css for outerwrap*/
+
+.finalConfirmation #visualStepIndicator{
+	display: block;
+}
+
+.finalConfirmation h2.reservationTitle{
+	color: #000;
+	clear: both;
+	font-weight: normal;
+	position: relative;
+	float: left;
+}
+
+.finalConfirmation .paymentInStoreTitleBorder {
+  border-bottom: 2px solid #E5E5E5;
+  height: 20px;
+  left: 260px;
+  position: relative;
+  top: 48px;
+}
+
+.finalConfirmation .trolleyProductConfirmation .paymentInStoreTitleBorder {
+  border-bottom: 2px solid #E5E5E5;
+  display: inline-block;
+  left: 330px;
+  top: -28px;
+  width: 800px;
+}
+
+
+.finalConfirmation #confirmationPickup .totalrow .containsDagger .total {
+  left: 0;
+}
+
+.reservationflow #reservedstores {
+	padding-top:35px;
+} 
+.finalConfirmation .paidNowTitleBorder{
+	height: 20px;
+	position: relative;
+	top: 28px;
+	left: 134px;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+.finalConfirmation #confirmationPickup table{
+	border: 2px solid #F7F7F7;
+	border-top: none;
+	width: 100%;
+}
+#webBanner
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+ #reservedstores p#viewMap
+{
+	margin-top: 20px;
+}
+
+.finalConfirmation #confirmationPickup table tbody{
+	background: #FFF;
+}
+
+.finalConfirmation #confirmationPickup table th{
+	background: none;
+}
+
+
+.finalConfirmation #confirmationPickup .reservationCollectionDestination{
+	background: #FAFAFA;
+	position: relative;
+	width: 918px;
+	padding: 20px;
+	height: 20px;
+	border: 2px solid #F7F7F7;
+	border-bottom: none;
+	height: 50px;
+}
+
+.finalConfirmation #confirmationPickup .reservationCollectionDestination div{
+	width: 458px;
+	position: relative;
+	float: left;
+	height: 50px;
+}
+
+.finalConfirmation #confirmationPickup .reservationCollectionDestination .reservedCollectionAt div{
+	background: url('/wcsstore/argos/en_GB/images/p2/newtrolley/img/fulfilment_sprite.gif') no-repeat -45px -25px;
+
+}
+
+.finalConfirmation #confirmationPickup .reservationCollectionDestination div div h3{
+	color: #000;
+	padding-left: 32px;
+	padding-top: 2px;
+}
+
+.finalConfirmation .reservationCollectionDestination .collectionImage{
+	position: relative;
+	float: left;
+	left: 30px;
+	top: -12px;
+}
+
+.finalConfirmation .reservationCollectionDestination .address{
+	position: relative;
+	float: left;
+	left: 40px;
+	top: -7px;
+	font-size: 1.2em;
+}
+
+.finalConfirmation .reservationCollectionDestination .timeDetails{
+	font-weight: bold;
+	position: relative;
+	float: left;
+	left: 40px;
+	top: -7px;
+	font-size: 1.2em;
+}
+
+.finalConfirmation #confirmationPickup .productDescription {
+  padding-left: 20px;
+  width: 300px;
+}
+
+.trolleyProductConfirmation .timeDetails {
+  font-weight: bold;
+}
+
+
+#content .trolleyProductConfirmation .productDescription a {
+	text-decoration: none;
+}
+
+.finalConfirmation #confirmationPickup table tbody td {
+	border: none;
+	height: 25px;
+}
+
+.finalConfirmation #confirmationPickup table .totalrow {
+	border-top: 1px dashed  #ccc;
+	height: 45px;
+}
+
+.finalConfirmation #confirmationPickup table .totalrow .text {
+	padding-right: 6px;
+}
+
+.finalConfirmation #confirmationPickup table .amount {
+	padding-right: 58px;
+}
+
+.finalConfirmation .pin{
+	float: right;
+}
+
+.finalConfirmation .number{
+	font-size: 1.4em;
+}
+
+.finalConfirmation .pin span{
+	color: #000;
+}
+
+.finalConfirmation div#reservedstores ul.storeslist li.vcard{
+	width: 600px;
+}
+
+.finalConfirmation .payPrePaidItems{
+	position: relative;
+}
+
+.finalConfirmation .payPrePaidItems h1{
+	font-size: 1.9em;
+	padding-left: 12px;
+	padding-bottom: 0px;
+}
+
+.finalConfirmation .payPrePaidItems div.payPrePaidItemStep1{
+	border: none;
+	margin-right:5px;
+}
+.finalConfirmation .payPrePaidItems div.payPrePaidItemStep2{
+	
+	margin-right:5px;
+}
+
+.finalConfirmation .payPrePaidItems span.stepDetails{
+	font-size: 1em;
+	left: 10px;
+	position: relative;
+	top: 5px
+}
+
+.finalConfirmation .payPrePaidItems div span{
+	font-size: 1.4em;	
+}
+
+.finalConfirmation .payPrePaidItems div{
+	font-size: 1.4em;
+	position: relative;
+	float: left;
+	width: 295px;
+	padding: 15px;
+	border-left: 1px solid #ccc;
+}
+
+.finalConfirmation #trolleyVoucherOffers div{
+	font-size: 1.4em;
+	padding: 0 0 5px 0 ;
+}
+
+.finalConfirmation #trolleyVoucherOffers .offerValidity{
+	
+	font-weight: bold;
+}
+
+.finalConfirmation #trolleyVoucherOffers .offer,
+.finalConfirmation #trolleyVoucherOffers .offerValidityTime,
+.finalConfirmation #trolleyVoucherOffers .fullDetails, 
+.finalConfirmation #trolleyVoucherOffers .fullDetails a{
+	color: #333;
+}
+
+
+/* End css for outerwrap*/
+
+/* End css for final confirmation */
+
+
+.custormerServiceInfo{
+	padding-left: 30px;
+	border-left: 1px solid #d4d4d4;
+}
+/* RC 39 Prepay checkout - Confirmation and Payment page  */
+/* End CSS for Contact Details for Pre-pay */
+/* End of RC 39 Prepay checkout */
+
+
+
+/* Start CSS for Contact Details for Pre-pay */	
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails{
+	border: 2px solid #A3C316;
+	padding: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div span:first-child{
+	font-weight: bold;
+	color: #000;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails span{
+	font-size: 1.2em;
+	color: #696969;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .paymentDetails div.provideDeatils{
+	border-top: 2px solid #CCC;
+	position: relative;
+	top: 8px;
+	padding: 10px 0px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails{
+	padding: 10px 0;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsHeader{
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsHeader span:first-child{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #09b2d1;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails span{
+	font-size: 1.2em;
+}	
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo{
+	background: #E3F1F4;
+	padding: 10px;
+	font-size: 1.1em;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo .billingDetailsText{
+	font-weight:bold;
+	padding-right: 30px;
+}
+
+#billingDetailsNo{
+	margin-left: 15px;
+	position: relative;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails input.image{
+	border: none;
+	float: right;
+	padding-top: 25px;
+	position: relative;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails .customerDetails .customerDetailsInfo .editDetails{
+	background: none;
+	text-decoration: none;
+}
+
+#yourDetailsGuestUser {
+	margin: 0px 15px 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #09B2D1;
+}
+
+.contactDetailsUnknownPrePay #content #yourDetailsGuestUser .registrationDetails{
+	margin-bottom: 20px;
+}
+
+#yourDetailsGuestUser h2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin: 0px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.fields,
+#yourDetailsGuestUser div.fields {
+	background-color: #E3F1F4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup {
+	background: #F0F8F9;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 10px 0px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.field {
+	background: transparent;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.field div.indicator {
+	width: 190px;
+}
+
+#yourDetailsGuestUser input[type="password"], #yourDetailsGuestUser input[type="text"] {
+	border: #ccc solid 1px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions {
+	overflow: hidden;
+	padding-left: 200px;
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay #content .prePayContactDetails {
+	margin-bottom: 10px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions input.findAddress {
+	float: left;
+	margin-right: 36px;
+	display: inline;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions span.or {
+	text-transform: uppercase;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right: 33px;
+	display: inline;
+	margin-top: 4px;
+}
+
+#yourDetailsGuestUser div.deliveryDetails div.postCodeLookup div.actions input.typeAddress {
+	margin-top: -4px;
+	float: left;
+}
+
+#yourDetailsGuestUser .sameAsDelivery .postCodeLookup, 
+#yourDetailsGuestUser .sameAsDelivery .manualAddress, 
+#yourDetailsGuestUser .sameAsDelivery .telephoneDetails,
+#benefitscodewrap , 
+#remembermecodewrap {
+	display: none;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.indicator {
+	width: 260px;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.indicator span.label {
+	float: left;
+	font-weight: bold;
+}
+
+#yourDetailsGuestUser div.contactDetails #deliveryAddressChoice div.radios {
+	width: 550px;
+}
+
+#yourDetailsGuestUser div.field div.radios div.input {
+	padding-top: 0;
+}
+
+#yourDetailsGuestUser div.registrationDetails div.fields div.section02 span.rememberMeMessage {
+	display: block;
+	font-size: 1.1em;
+}
+
+#yourDetailsGuestUser .registrationDetails .input label {
+	float: none;
+}
+
+#yourDetailsGuestUser .contactDetails #email1, 
+#yourDetailsGuestUser .contactDetails #logonId, 
+#yourDetailsGuestUser .registrationDetails #logonPassword, 
+#yourDetailsGuestUser .registrationDetails #logonPasswordVerify {
+	width: 203px;
+}
+
+#yourDetailsGuestUser .emailDetails .fieldContextualDetails {
+	width: 250px;
+}
+
+#yourDetailsGuestUser .singleInput p {
+	font-size: 11px;
+	margin: 0;
+	text-align: right;
+}
+
+#yourDetailsGuestUser div.primaryActions input.image {
+	float: right;
+}
+
+#yourDetailsGuestUser div.primaryActions {
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.contactDetailsUnknownPrePay div#content div#deliveryandpickup{
+	border: none;
+	margin-top: 0;
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul li.step4{
+	width: 86px;
+	margin-right: 8px;
+	color: #999;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul li.step4 span:last-child{
+	color: #4AC0DB;
+	font-size: 12px;	
+}
+
+.contactDetailsUnknownPrePay.reservationflow #visualStepIndicator ul{
+	width: 382px;
+}
+/* End CSS for Contact Details for Pre-pay */	
+
+
+
+#fastTrackInformation {
+	clear: none;
+    float: right;
+    position: relative;
+    right: 130px;
+}
+
+#pgPaymentDetails #fastTrackInformation {
+  background: none repeat scroll 0 0 #FEE8EA;
+  clear: none;
+  padding-left: 12px;
+  padding-right: 100px;
+  position: relative;
+  right: 0;
+}
+
+#orderSummaryPaymentTable #fastTrackInformation {
+	clear: none;
+    float: left;
+    position: relative;
+}
+
+#confirmationPickup .collectTextFastTrack {
+  clear: both;
+  font-size: 15px;
+}
+
+
+.rowUpDevide {
+    border-top: 1px solid #CCCCCC;
+}
+#pgPaymentDetails .rowUpDevide {
+	clear: both;
+}
+.orderSummaryBillingAddressPayment .itemsList .availableToCollect {
+    float: right;
+    font-size: 1.2em;
+    position: relative;
+    text-align: left;
+    width: 306px;
+}
+#ordersummary .paymentInStore .emailConfirmation span {
+    font-size: 12px;
+}
+.orderSummaryBillingAddressPayment #carddetails, 
+.orderSummaryBillingAddressPayment #collectAt {
+  border: 1px solid #D0D0D0;
+  min-height: 145px;
+}
+
+.orderSummaryBillingAddressPayment #collectAt {
+  margin-top: 10px;
+}
+
+#ordersummary .paymentInStore .emailConfirmation img {
+    vertical-align: top;
+}
+.orderSummaryBillingAddressPayment #paymentdetails h2 {
+    clear: both;
+}
+
+.orderSummaryBillingAddressPayment #paymentdetails h2.collectionStore .store {
+    color: #333;
+}
+
+#carddetails {
+    margin-bottom: 30px;
+    margin-top: 2em;
+}
+
+#cardPaymentMethod #paymentMethodChoice {
+    padding-bottom: 0;
+    padding-top: 8px;
+}
+
+
+/* Start Defect No. 1389 */
+#pgPaymentDetails #outerwrap #content #paymentdetails #collectAt .payForNow .itemsList  span.catalogNo{
+	float: none;
+	top: 0;
+	font-size: 1.1em;
+	padding-left: 10px;
+}
+/* End Defect No. 1389 */
+
+/*Defect Id 4862*/
+
+#orderConfirmation #genericESpot_TrolleyListerSecuritySpot img{
+	position:absolute;
+	top:45px;
+	right:45px;
+	
+}
+
+#orderConfirmation .collectText {
+  border: 0 none;
+  font-size: 15px;
+}
+
+#orderConfirmation .trolleyProductConfirmation {
+    clear: both;
+    overflow: hidden;
+    margin:0px;
+}
+
+#orderConfirmation #confirmationPickup table {
+	width:97.3%;
+}
+
+#orderConfirmation #confirmationPickup .totalrow{
+	text-align:left;
+}
+
+#orderConfirmation #promos{
+	padding:20px 100px;
+}
+
+#orderConfirmation #promos .promo .promotionVoucher {
+	padding: 20px;
+} 
+
+#orderConfirmation #promos .promotiontext{
+    vertical-align: top;
+}
+
+/*End of Defect Id 4862*/
+
+/*Defect Id 7473*/
+.reservationflow  .confirmReservation {
+	background: url("/wcsstore/argos/en_GB/siteAssets/images/trolley_sprite.gif") no-repeat scroll top left transparent;
+	margin: 40px 0;
+	padding-left: 60px;
+	height:45px;
+}
+.reservationflow  .confirmReservation h2 {
+	color:#333;
+	font-size:1.8em;
+	line-height:1.4em;
+}
+.reservationflow  .confirmReservation p {
+	font-size:1.2em;
+}
+/*End Defect Id 7473*/
+#stockAvailabilityDetailsForm #yourDetails {
+	position:relative;
+}
+#stockAvailabilityDetailsForm .nonhubA {
+	float: left;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+}
+body.device-iPhone #logo {
+	left: 0; 
+    margin-left:0px !important;
+    position: absolute;
+    top: 0;
+}
+	
